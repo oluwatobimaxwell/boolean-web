@@ -1,9 +1,7 @@
 import OurTeam from "./Component-Our_Team/our_team";
+
 import HomeApp from "./Components/App/home";
-import Dashboard from "./Components/Training/dashboard";
-import NavigationBar from "./Components2/Navigation Bar/navbar";
-import AboutApp from "./Component_about_us/about";
-import logo from "./logo.svg";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -13,7 +11,7 @@ import {
 import AboutUs from "./Components/App/AboutUs";
 import Services from "./Components/App/Services";
 import ContactUs from "./Components/App/ContactUs";
-import Header from "./Components2/header";
+
 
 function App() {
   const hist = useHistory()
