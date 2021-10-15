@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+
 import Footer from "../../Components2/footer";
+
 import Header from "../../Components2/header";
-class AppLayer extends React.Component {
+class AppLayer extends Component {
   render() {
     const { children, navbarClass} = this.props;
     return (

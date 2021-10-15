@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class SixthSection extends React.Component {
+class SixthSection extends Component {
   render() {
     return (
       <section className="big-section">

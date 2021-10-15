@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class FourthSection extends React.Component {
+class FourthSection extends Component {
   render() {
     return (
       <section className="bg-gradient-white-light-gray">

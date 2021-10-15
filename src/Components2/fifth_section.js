@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class FifthSection extends React.Component {
+class FifthSection extends Component {
   render() {
     return (
       <section

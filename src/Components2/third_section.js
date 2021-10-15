@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class ThirdSection extends React.Component {
+class ThirdSection extends Component {
   render() {
     return (
       <section className="big-section border-top border-color-medium-gray pb-0">

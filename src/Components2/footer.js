@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class Footer extends React.Component {
+class Footer extends Component {
   render() {
     return (
       <footer className="padding-six-tb xs-padding-thirteen-tb footer-design-agency border-top border-width-1px border-color-medium-gray footer-sticky">

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class Header extends React.Component {
+class Header extends Component {
   render() {
     const { navbarClass, imgClass} = this.props;
     return (

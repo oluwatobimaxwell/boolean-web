@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class SecondSection extends React.Component {
+class SecondSection extends Component {
   render() {
     return (
       <section className="bg-light-gray wow animate__fadeIn">
