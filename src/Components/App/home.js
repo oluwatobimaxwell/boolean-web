@@ -6,9 +6,9 @@ import FirstSection from "../../Components2/first_section";
 import FourthSection from "../../Components2/fourth_section";
 
 import SecondSection from "../../Components2/second_section";
-import SeventhSection from "../../Components2/seventh_section";
+
 import SixthSection from "../../Components2/sixth_section";
-import ThirdSection from "../../Components2/third_section";
+
 import AppLayer from "./AppLayer";
 class HomeApp extends Component {
   render() {
