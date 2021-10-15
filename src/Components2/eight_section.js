@@ -34,7 +34,7 @@ class EightSection extends React.Component {
               data-wow-delay="0.4s"
             >
               <a
-                href="contact-us-modern.html"
+                href="/contact-us"
                 className="btn btn-fancy btn-box-shadow btn-medium btn-dark-gray"
               >
                 Start a project

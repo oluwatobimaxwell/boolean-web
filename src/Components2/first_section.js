@@ -20,14 +20,14 @@ class FirstSection extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-12 col-lg-5 col-md-6 col-sm-7 full-screen md-h-650px sm-h-500px d-flex flex-column justify-content-center padding-8-rem-tb">
-                  <h1 className="alt-font font-weight-600 title-large text-extra-dark-gray letter-spacing-minus-4px margin-4-half-rem-bottom sm-letter-spacing-minus-1-half xs-w-65">
-                    We are creative agency
+                  <h1 className="alt-font font-weight-600 title-large text-extra-dark-gray letter-spacing-minus-2px margin-4-half-rem-bottom sm-letter-spacing-minus-1-half xs-w-65">
+                    We are a Creative Agency
                   </h1>
                   <a
-                    href="contact-us-classic.html"
+                    href="/about-us"
                     className="btn btn-extra-large btn-expand-ltr text-extra-dark-gray btn-rounded align-self-start font-weight-600"
                   >
-                    Get started now
+                    Read more
                     <span className="bg-white" />
                   </a>
                 </div>

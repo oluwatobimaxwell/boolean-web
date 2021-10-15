@@ -1,129 +1,144 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 class SecondSection extends React.Component {
-    render() { 
-        return (
-            <section id="about" className="big-section">
-            <div className="container">
-              <div className="row row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 justify-content-center">
-                {/* start feature box item */}
-                <div
-                  className="col text-center md-margin-50px-bottom wow animate__fadeIn"
-                  data-wow-delay="0.1s"
-                >
-                  <a
-                    href="#"
-                    className="text-medium-gray text-sunglow-hover cursor-default"
-                  >
-                    <i className="line-icon-Vector-5 icon-large padding-20px-bottom" />
-                    <span className="alt-font font-weight-600 text-extra-dark-gray text-uppercase d-block">
-                      Good design
-                    </span>
-                  </a>
+  render() {
+    return (
+      <section className="bg-light-gray wow animate__fadeIn">
+        <div className="container">
+          <h4 style={{ display: "flex", justifyContent: "center" }}>
+            Our Core Values
+          </h4>
+          <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2">
+            {/* start feature box item */}
+            <div className="col wow animate__fadeIn" data-wow-delay="0.2s">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+                <div className="feature-box-icon">
+                  <i className="line-icon-Navigation-LeftWindow icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
                 </div>
-                {/* end feature box item */}
-                {/* start feature box item */}
-                <div
-                  className="col text-center md-margin-50px-bottom wow animate__fadeIn"
-                  data-wow-delay="0.2s"
-                >
-                  <a
-                    href="#"
-                    className="text-medium-gray text-sunglow-hover cursor-default"
-                  >
-                    <i className="line-icon-Police icon-large padding-20px-bottom" />
-                    <span className="alt-font font-weight-600 text-extra-dark-gray text-uppercase d-block">
-                      Inspiring ideas
-                    </span>
-                  </a>
-                </div>
-                {/* end feature box item */}
-                {/* start feature box item */}
-                <div
-                  className="col text-center md-margin-50px-bottom wow animate__fadeIn"
-                  data-wow-delay="0.3s"
-                >
-                  <a
-                    href="#"
-                    className="text-medium-gray text-sunglow-hover cursor-default"
-                  >
-                    <i className="line-icon-Bee icon-large padding-20px-bottom" />
-                    <span className="alt-font font-weight-600 text-extra-dark-gray text-uppercase d-block">
-                      Innovative code
-                    </span>
-                  </a>
-                </div>
-                {/* end feature box item */}
-                {/* start feature box item */}
-                <div
-                  className="col text-center sm-margin-50px-bottom wow animate__fadeIn"
-                  data-wow-delay="0.4s"
-                >
-                  <a
-                    href="#"
-                    className="text-medium-gray text-sunglow-hover cursor-default"
-                  >
-                    <i className="line-icon-Medal-2 icon-large padding-20px-bottom" />
-                    <span className="alt-font font-weight-600 text-extra-dark-gray text-uppercase d-block">
-                      Best quality
-                    </span>
-                  </a>
-                </div>
-                {/* end feature box item */}
-                {/* start feature box item */}
-                <div
-                  className="col text-center wow animate__fadeIn"
-                  data-wow-delay="0.5s"
-                >
-                  <a
-                    href="#"
-                    className="text-medium-gray text-sunglow-hover cursor-default"
-                  >
-                    <i className="line-icon-Idea-5 icon-large padding-20px-bottom" />
-                    <span className="alt-font font-weight-600 text-extra-dark-gray text-uppercase d-block">
-                      Brand analysis
-                    </span>
-                  </a>
-                </div>
-                {/* end feature box item */}
-              </div>
-              <div className="row align-items-end justify-content-center margin-10-half-rem-top md-margin-7-rem-top">
-                <div
-                  className="col-12 col-lg-3 pe-lg-0 md-margin-25px-bottom sm-margin-15px-bottom text-center text-lg-start wow animate__fadeIn"
-                  data-wow-delay="0.2s"
-                >
-                  <span className="alt-font font-weight-600 title-large text-sunglow d-block letter-spacing-minus-5px sm-letter-spacing-minus-1-half">
-                    hello<span className="text-extra-dark-gray">.</span>
+                <div className="feature-box-content last-paragraph-no-margin">
+                  <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
+                    Getting things done
                   </span>
-                </div>
-                <div
-                  className="col-12 col-lg-5 col-md-10 text-lg-end md-margin-25px-bottom text-center text-lg-start wow animate__fadeIn"
-                  data-wow-delay="0.4s"
-                >
-                  <h4 className="alt-font font-weight-600 text-extra-dark-gray d-block mb-0 padding-2-half-rem-right letter-spacing-minus-1px lg-no-padding-right">
-                    Award winning agency specialising in creative design
-                  </h4>
-                </div>
-                <div
-                  className="col-12 col-lg-4 col-md-9 padding-30px-left md-padding-15px-left text-center text-lg-start wow animate__fadeIn"
-                  data-wow-delay="0.6s"
-                >
-                  <p className="w-80 margin-15px-bottom lg-w-100">
-                    Lorem ipsum dolor sit amet consectetur eiusmod tempor
-                    incididunt labore magna ut enim ad minim veniam nostrud.
+                  <p>
+                    Getting Things Done is the mantra we live by. Our ingenious
+                    team has a “can-do” attitude and believes in Getting Things
+                    Done. This mantra makes sense when we deliver our client’s
+                    project on time.
                   </p>
-                  <a
-                    href="about-us.html"
-                    className="btn btn-link btn-extra-large text-extra-dark-gray font-weight-600"
-                  >
-                    Agency info
-                  </a>
                 </div>
+                <div className="feature-box-overlay bg-white border-radius-5px" />
               </div>
             </div>
-          </section>
-          
-        );
-    }
+            {/* end feature box item */}
+            {/* start feature box item */}
+            <div className="col wow animate__fadeIn" data-wow-delay="0.4s">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+                <div className="feature-box-icon">
+                  <i className="line-icon-Cursor-Click2 icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                </div>
+                <div className="feature-box-content last-paragraph-no-margin">
+                  <span className="text-extra-medium alt-font text-extra-dark-gray text-gradient-orange-pink-hover d-block margin-5px-bottom font-weight-500">
+                    Integrity
+                  </span>
+                  <p>
+                    We do care about our clients and their requirements, so we
+                    are committed to keep our words and deliver what we say. We
+                    maintain trust, transparency, and honesty throughout the
+                    project.
+                  </p>
+                </div>
+                <div className="feature-box-overlay bg-white border-radius-5px" />
+              </div>
+            </div>
+            {/* end feature box item */}
+            {/* start feature box item */}
+            <div className="col wow animate__fadeIn" data-wow-delay="0.6s">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+                <div className="feature-box-icon">
+                  <i className="line-icon-Like-2 icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                </div>
+                <div className="feature-box-content last-paragraph-no-margin">
+                  <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
+                    Quality at work
+                  </span>
+                  <p>
+                    We select very few clients. Reason? We don’t want to
+                    compromise with the quality we deliver. But, don’t believe
+                    in our words. If you have a specific requirement, try and
+                    test us.
+                  </p>
+                </div>
+                <div className="feature-box-overlay bg-white border-radius-5px" />
+              </div>
+            </div>
+            {/* end feature box item */}
+            {/* start feature box item */}
+            <div className="col wow animate__fadeIn" data-wow-delay="0.2s">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+                <div className="feature-box-icon">
+                  <i className="line-icon-Talk-Man icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                </div>
+                <div className="feature-box-content last-paragraph-no-margin">
+                  <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
+                    Customer satisfaction
+                  </span>
+                  <p>
+                    Excellent customer service is the number one job in any
+                    company! It is the personality of the company and the reason
+                    customers come back. Without customers there is no company!
+                  </p>
+                </div>
+                <div className="feature-box-overlay bg-white border-radius-5px" />
+              </div>
+            </div>
+            {/* end feature box item */}
+            {/* start feature box item */}
+            <div className="col wow animate__fadeIn" data-wow-delay="0.4s">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+                <div className="feature-box-icon">
+                  <i className="line-icon-Heart icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                </div>
+                <div className="feature-box-content last-paragraph-no-margin">
+                  <span className="text-extra-medium alt-font text-extra-dark-gray text-gradient-orange-pink-hover d-block margin-5px-bottom font-weight-500">
+                    Accountability
+                  </span>
+                  <p>
+                    We don’t believe in just finishing the job, we take it as
+                    our own work and nurture it with the utmost care to
+                    successfully deliver it. We hold ourselves accountable for
+                    the results.
+                  </p>
+                </div>
+                <div className="feature-box-overlay bg-white border-radius-5px" />
+              </div>
+            </div>
+            {/* end feature box item */}
+            {/* start feature box item */}
+            <div className="col wow animate__fadeIn" data-wow-delay="0.6s">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+                <div className="feature-box-icon">
+                  <i className="line-icon-Gear-2 icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                </div>
+                <div className="feature-box-content last-paragraph-no-margin">
+                  <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
+                    Innovation
+                  </span>
+                  <p>
+                    Innovation motivates action: to take risks, encourage new
+                    ideas, learn from mistakes, and constantly strive to exceed
+                    expectations. We generate solutions for our customers and
+                    raise the bar both within our workplace and throughout our
+                    industry.
+                  </p>
+                </div>
+                <div className="feature-box-overlay bg-white border-radius-5px" />
+              </div>
+            </div>
+            {/* end feature box item */}
+          </div>
+        </div>
+      </section>
+    );
+  }
 }
- 
+
 export default SecondSection;

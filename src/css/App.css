@@ -47,4 +47,6 @@ cursor: pointer;
   color:orangered !important
  
 }
-
+.nav-item:hover .dropdown-menu{
+  display:block!important
+}
