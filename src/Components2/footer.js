@@ -2,28 +2,23 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <footer className="padding-six-tb xs-padding-thirteen-tb footer-design-agency border-top border-width-1px border-color-medium-gray footer-sticky">
+      <footer className="padding-six-tb xs-padding-thirteen-tb footer-design-agency border-top border-width-1px border-color-medium-gray footer-sticky bg-black">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-12 col-lg-3 order-3 order-lg-1 text-center text-lg-start last-paragraph-no-margin md-margin-25px-top">
               <a
-                href="index.html"
+                href="#"
                 className="footer-logo margin-20px-bottom d-block"
               >
                 <img
-                  src="images/logo-black.png"
-                  data-at2x="images/logo-black@2x.png"
+                  src="images/btech1.jpg"
+                  data-at2x="images/btech1.jpg"
                   alt=""
                 />
               </a>
-              © Copyright 2021{" "}
-              <a
-                href="https://www.themezaa.com/"
-                target="_blank"
-                className="text-decoration-line-bottom text-extra-dark-gray text-extra-dark-gray-hover font-weight-500"
-              >
-                Litho
-              </a>
+              <p className>
+               © Copyright 2021{" "} </p>
+             
             </div>
             <div className="col-12 col-md-6 order-1 order-lg-2 text-center text-md-start text-lg-center sm-margin-50px-bottom xs-margin-30px-bottom">
               <span className="line-height-normal d-block margin-25px-bottom md-w-80 sm-w-100">
@@ -63,7 +58,7 @@ class Footer extends Component {
                       href="https://www.facebook.com/"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-f" />
+                      <i className="fab fa-facebook-f text-yellow" />
                     </a>
                   </li>
                   <li>
@@ -72,7 +67,7 @@ class Footer extends Component {
                       href="http://www.dribbble.com/"
                       target="_blank"
                     >
-                      <i className="fab fa-dribbble" />
+                      <i className="fab fa-dribbble text-yellow" />
                     </a>
                   </li>
                   <li>
@@ -81,7 +76,7 @@ class Footer extends Component {
                       href="http://www.twitter.com/"
                       target="_blank"
                     >
-                      <i className="fab fa-twitter" />
+                      <i className="fab fa-twitter text-yellow" />
                     </a>
                   </li>
                   <li>
@@ -90,7 +85,7 @@ class Footer extends Component {
                       href="http://www.instagram.com/"
                       target="_blank"
                     >
-                      <i className="fab fa-instagram" />
+                      <i className="fab fa-instagram text-yellow" />
                     </a>
                   </li>
                 </ul>

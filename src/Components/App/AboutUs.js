@@ -44,13 +44,13 @@ class AboutUs extends Component {
                 />
               </div>
               <div className="col-12 col-lg-4 col-md-6 ps-lg-0 d-flex sm-margin-30px-bottom">
-                <div className="justify-content-center w-100 d-flex flex-column bg-fast-blue padding-5-half-rem-lr lg-padding-3-rem-lr md-padding-4-rem-all">
-                  <span className="text-large alt-font font-weight-200 text-white margin-20px-bottom d-block">
+                <div className="justify-content-center w-100 d-flex flex-column bg-yellow padding-5-half-rem-lr lg-padding-3-rem-lr md-padding-4-rem-all">
+                  <span className="text-large alt-font font-weight-200 text-black margin-20px-bottom d-block">
                   The Boolean Tech is a one-stop IT solution provider web and mobile app development company in Abuja, NG. Having hands-on experience in delivering and deploying cutting-edge web and mobile applications, we create customer-centric product design and deliver ceaseless experience that leaves the user Wowwwww! 
                   </span>
                   <a
                     href="/services"
-                    className="btn btn-large btn-link text-white text-white-hover align-self-start"
+                    className="btn btn-large btn-link text-black text-black-hover align-self-start"
                   >
                     Company overview
                   </a>
@@ -58,8 +58,8 @@ class AboutUs extends Component {
               </div>
               <div className="col-12 col-lg-4 col-md-6">
                 <img src="images/about-us-img-01.jpg" alt="" />
-                <div className="bg-white padding-3-half-rem-lr padding-3-rem-tb lg-padding-2-rem-all md-padding-2-half-rem-all sm-padding-4-rem-all last-paragraph-no-margin">
-                  <span className="alt-font text-extra-dark-gray font-weight-500 margin-10px-bottom d-block">
+                <div className="bg-black padding-3-half-rem-lr padding-3-rem-tb lg-padding-2-rem-all md-padding-2-half-rem-all sm-padding-4-rem-all last-paragraph-no-margin">
+                  <span className="alt-font text-yellow font-weight-500 margin-10px-bottom d-block">
                     Our Mission
                   </span>
                   <p>
@@ -87,37 +87,37 @@ class AboutUs extends Component {
             <div className="row justify-content-center">
               {/* start feature box item */}
               <div className="col-12 col-lg-6 col-md-9 margin-30px-bottom xs-margin-15px-bottom">
-                <div className="feature-box h-100 feature-box-left-icon border-radius-5px bg-white box-shadow-small feature-box-dark-hover overflow-hidden padding-4-rem-all">
+                <div className="feature-box h-100 feature-box-left-icon border-radius-5px bg-black box-shadow-small  overflow-hidden padding-4-rem-all">
                   <div className="feature-box-icon">
-                    <i className="line-icon-Navigation-LeftWindow icon-medium text-fast-blue" />
+                    <i className="line-icon-Navigation-LeftWindow icon-medium text-white" />
                   </div>
                   <div className="feature-box-content last-paragraph-no-margin">
-                    <span className="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray">
+                    <span className="alt-font font-weight-500 margin-10px-bottom d-block text-white">
                       Who we are?
                     </span>
-                    <p>
+                    <p className="text-white">
                     Our team of passionate developers and designers nurtures your dreamed ideas into reality by solving the real-world problems for the business and their customers. Having released more than 75 apps of the respectable brands under the belt of our well-versed team, we leave no stone unturned when it comes to security and transparency. 
                     </p>
                   </div>
-                  <div className="feature-box-overlay bg-gradient-fast-blue-purple" />
+                 
                 </div>
               </div>
               {/* end feature box item */}
               {/* start feature box item */}
               <div className="col-12 col-lg-6 col-md-9 margin-30px-bottom xs-margin-15px-bottom">
-                <div className="feature-box h-100 feature-box-left-icon border-radius-5px bg-white box-shadow-small feature-box-dark-hover overflow-hidden padding-4-rem-all">
+                <div className="feature-box h-100 feature-box-left-icon border-radius-5px bg-yellow box-shadow-small  overflow-hidden padding-4-rem-all">
                   <div className="feature-box-icon">
-                    <i className="line-icon-Cursor-Click2 icon-medium text-fast-blue" />
+                    <i className="line-icon-Cursor-Click2 icon-medium text-black" />
                   </div>
                   <div className="feature-box-content last-paragraph-no-margin">
-                    <span className="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray">
+                    <span className="alt-font font-weight-500 margin-10px-bottom d-block text-black">
                       Our Approach
                     </span>
-                    <p>
+                    <p className="text-black">
                     Our skilled strategists, designers, and developers are here to take your project from ideation to publication. Being a leading software development company in Nigeria, our team is committed to developing mobile app and web-based software solutions that keep your users hooked straight into it. 
                     </p>
                   </div>
-                  <div className="feature-box-overlay bg-gradient-fast-blue-purple" />
+                  
                 </div>
               </div>
               {/* end feature box item */}
@@ -185,7 +185,7 @@ class AboutUs extends Component {
                 <ul className="p-0 list-style-02 margin-2-rem-top margin-3-rem-bottom">
                   <li className="margin-15px-bottom">
                     <i
-                      className="feather icon-feather-arrow-right-circle text-large text-fast-blue margin-10px-right"
+                      className="feather icon-feather-arrow-right-circle text-large text-yellow margin-10px-right"
                       aria-hidden="true"
                     />
                     <span className="text-extra-dark-gray alt-font">
@@ -194,7 +194,7 @@ class AboutUs extends Component {
                   </li>
                   <li className="margin-15px-bottom">
                     <i
-                      className="feather icon-feather-arrow-right-circle text-large text-fast-blue margin-10px-right"
+                      className="feather icon-feather-arrow-right-circle text-large text-yellow margin-10px-right"
                       aria-hidden="true"
                     />
                     <span className="text-extra-dark-gray alt-font">
@@ -203,7 +203,7 @@ class AboutUs extends Component {
                   </li>
                   <li className="margin-15px-bottom">
                     <i
-                      className="feather icon-feather-arrow-right-circle text-large text-fast-blue margin-10px-right"
+                      className="feather icon-feather-arrow-right-circle text-large text-yellow margin-10px-right"
                       aria-hidden="true"
                     />
                     <span className="text-extra-dark-gray alt-font">
@@ -213,7 +213,7 @@ class AboutUs extends Component {
                 </ul>
                 <a
                   href="/contact-us"
-                  className="btn btn-medium btn-fast-blue btn-round-edge"
+                  className="btn btn-medium btn-fast-yellow btn-round-edge"
                 >
                   Get Started Now
                 </a>
@@ -489,10 +489,10 @@ class AboutUs extends Component {
               >
                 <a
                   href="/contact-us"
-                  className="btn btn-large btn-round-edge btn-transparent-fast-blue btn-slide-right-bg"
+                  className="btn btn-large btn-round-edge btn-black btn-slide-right-bg"
                 >
                   Join the team
-                  <span className="bg-fast-blue" />
+                  <span className="bg-yellow" />
                 </a>
               </div>
             </div>

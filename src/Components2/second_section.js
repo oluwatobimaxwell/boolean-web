@@ -2,9 +2,9 @@ import React, { Component } from "react";
 class SecondSection extends Component {
   render() {
     return (
-      <section className="bg-light-gray wow animate__fadeIn">
+      <section className="bg-black wow animate__fadeIn">
         <div className="container">
-          <h4 style={{ display: "flex", justifyContent: "center" }}>
+          <h4 className="text-yellow" style={{ display: "flex", justifyContent: "center"}}>
             Our Core Values
           </h4>
           <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2">
@@ -12,10 +12,10 @@ class SecondSection extends Component {
             <div className="col wow animate__fadeIn" data-wow-delay="0.2s">
               <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
                 <div className="feature-box-icon">
-                  <i className="line-icon-Navigation-LeftWindow icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                  <i className="line-icon-Navigation-LeftWindow icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
                 <div className="feature-box-content last-paragraph-no-margin">
-                  <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
+                  <span className="text-extra-medium alt-font text-yellow d-block margin-5px-bottom font-weight-500">
                     Getting things done
                   </span>
                   <p>
@@ -33,10 +33,10 @@ class SecondSection extends Component {
             <div className="col wow animate__fadeIn" data-wow-delay="0.4s">
               <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
                 <div className="feature-box-icon">
-                  <i className="line-icon-Cursor-Click2 icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                  <i className="line-icon-Cursor-Click2 icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
                 <div className="feature-box-content last-paragraph-no-margin">
-                  <span className="text-extra-medium alt-font text-extra-dark-gray text-gradient-orange-pink-hover d-block margin-5px-bottom font-weight-500">
+                  <span className="text-extra-medium alt-font text-yellow text-gradient-orange-pink-hover d-block margin-5px-bottom font-weight-500">
                     Integrity
                   </span>
                   <p>
@@ -54,10 +54,10 @@ class SecondSection extends Component {
             <div className="col wow animate__fadeIn" data-wow-delay="0.6s">
               <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
                 <div className="feature-box-icon">
-                  <i className="line-icon-Like-2 icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                  <i className="line-icon-Like-2 icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
                 <div className="feature-box-content last-paragraph-no-margin">
-                  <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
+                  <span className="text-extra-medium alt-font text-yellow d-block margin-5px-bottom font-weight-500">
                     Quality at work
                   </span>
                   <p>
@@ -75,10 +75,10 @@ class SecondSection extends Component {
             <div className="col wow animate__fadeIn" data-wow-delay="0.2s">
               <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
                 <div className="feature-box-icon">
-                  <i className="line-icon-Talk-Man icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                  <i className="line-icon-Talk-Man icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
                 <div className="feature-box-content last-paragraph-no-margin">
-                  <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
+                  <span className="text-extra-medium alt-font text-yellow d-block margin-5px-bottom font-weight-500">
                     Customer satisfaction
                   </span>
                   <p>
@@ -95,10 +95,10 @@ class SecondSection extends Component {
             <div className="col wow animate__fadeIn" data-wow-delay="0.4s">
               <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
                 <div className="feature-box-icon">
-                  <i className="line-icon-Heart icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                  <i className="line-icon-Heart icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
                 <div className="feature-box-content last-paragraph-no-margin">
-                  <span className="text-extra-medium alt-font text-extra-dark-gray text-gradient-orange-pink-hover d-block margin-5px-bottom font-weight-500">
+                  <span className="text-extra-medium alt-font text-yellow text-gradient-orange-pink-hover d-block margin-5px-bottom font-weight-500">
                     Accountability
                   </span>
                   <p>
@@ -116,10 +116,10 @@ class SecondSection extends Component {
             <div className="col wow animate__fadeIn" data-wow-delay="0.6s">
               <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
                 <div className="feature-box-icon">
-                  <i className="line-icon-Gear-2 icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
+                  <i className="line-icon-Gear-2 icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
                 <div className="feature-box-content last-paragraph-no-margin">
-                  <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
+                  <span className="text-extra-medium alt-font text-yellow d-block margin-5px-bottom font-weight-500">
                     Innovation
                   </span>
                   <p>

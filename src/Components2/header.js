@@ -9,20 +9,20 @@ class Header extends Component {
             <div className="col-5 col-lg-2 ps-lg-0 me-auto me-lg-0">
               <a className="navbar-brand" href="index.html">
                 <img
-                  src="images/logo-black.png"
-                  data-at2x="images/logo-black@2x.png"
+                  src="images/btech1.jpg"
+                  data-at2x="images/btech1.jpg"
                   alt=""
                   className="default-logo"
                 />
                 <img
-                  src="images/logo-black.png"
-                  data-at2x="images/logo-black@2x.png"
+                  src="images/btech1.jpg"
+                  data-at2x="images/btech1.jpg"
                   alt=""
                   className="alt-logo"
                 />
                 <img
-                  src="images/logo-black.png"
-                  data-at2x="images/logo-black@2x.png"
+                  src="images/btech1.jpg"
+                  data-at2x="images/btech1.jpg"
                   className="mobile-logo"
                   alt=""
                 />

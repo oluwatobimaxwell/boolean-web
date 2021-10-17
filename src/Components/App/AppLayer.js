@@ -13,7 +13,7 @@ class AppLayer extends Component {
             {children}
         </div>
         <Footer />
-        <a className="scroll-top-arrow" href="javascript:void(0);">
+        <a className="scroll-top-arrow text-black" href="javascript:void(0);">
           <i className="feather icon-feather-arrow-up"></i>
         </a>
       </>

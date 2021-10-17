@@ -5,7 +5,7 @@ class ContactUs extends Component {
   render() {
     return (
       <AppLayer>
-        <section className="bg-gradient-light-orange-light-pink">
+        <section className="bg-yellow">
     <div className="container">
       <div className="d-flex flex-column flex-md-row justify-content-end extra-small-screen align-items-end">
         <div className="w-100 w-md-50 page-title-extra-small">
@@ -19,19 +19,19 @@ class ContactUs extends Component {
   </section>
   {/* end page title */} 
   {/* start section */}
-  <section>
+  <section className="bg-black">
     <div className="container">
       <div className="row align-items-end">
         <div className="col-12 col-lg-6 col-md-4 sm-margin-30px-bottom">
-          <h5 className="alt-font w-50 text-extra-dark-gray font-weight-500 mb-0 lg-w-65 md-w-100">How can we help you today?</h5>
+          <h5 className="alt-font w-50 text-yellow font-weight-500 mb-0 lg-w-65 md-w-100">How can we help you today?</h5>
         </div>
         <div className="col-12 col-lg-6 col-md-8">
           <div className="row">
             <div className="col-12 col-sm-6 xs-margin-30px-bottom"> 
-              <span className="alt-font d-block text-extra-dark-gray font-weight-500 margin-10px-bottom">Abuja</span>
+              <span className="alt-font d-block text-yellow font-weight-500 margin-10px-bottom">Abuja</span>
               <p className="w-80 margin-5px-bottom lg-w-90">Plot 576 Independence Ave, Central Business District 900103, Abuja</p>
               <span className="d-block margin-10px-bottom">Tel: +234 909 426 7360</span>
-              <a href="https://www.google.com/maps/place/The+Boolean+Technologies+Nig+Ltd/@9.0398707,7.4723841,15z/data=!4m5!3m4!1s0x0:0x4a445dad6c5a0a80!8m2!3d9.0398707!4d7.4723841" target="_blank" className="text-uppercase text-small text-extra-dark-gray font-weight-500 text-decoration-line-bottom">View on google map</a>
+              <a href="https://www.google.com/maps/place/The+Boolean+Technologies+Nig+Ltd/@9.0398707,7.4723841,15z/data=!4m5!3m4!1s0x0:0x4a445dad6c5a0a80!8m2!3d9.0398707!4d7.4723841" target="_blank" className="text-uppercase text-small text-yellow font-weight-500 text-decoration-line-bottom">View on google map</a>
             </div>
           </div>
         </div>
@@ -44,14 +44,14 @@ class ContactUs extends Component {
     <div className="container">
       <div className="row align-items-end justify-content-center">
         <div className="col-12 col-lg-5 col-md-8 md-margin-50px-bottom">
-          <div className="feature-box feature-box-left-icon-middle padding-4-rem-all bg-light-gray overflow-hidden background-position-top background-no-repeat lg-padding-3-rem-lr md-padding-5-rem-all xs-padding-3-half-rem-all" style={{backgroundImage: 'url("images/quotes-01.png")'}}>
+          <div className="feature-box feature-box-left-icon-middle padding-4-rem-all bg-yellow overflow-hidden background-position-top background-no-repeat lg-padding-3-rem-lr md-padding-5-rem-all xs-padding-3-half-rem-all" style={{backgroundImage: 'url("images/quotes-01.png")'}}>
             <div className="feature-box-icon margin-25px-right xs-margin-15px-right">
               <img className="border-radius-100 w-80px xs-w-50px" src="images/user-01.jpg" alt="" />
             </div>
             <div className="feature-box-content">
-              <div className="text-large text-extra-dark-gray alt-font font-weight-500 w-90">More comfortable talking with us?</div>
+              <div className="text-large text-black alt-font font-weight-500 w-90">More comfortable talking with us?</div>
             </div>
-            <p className="margin-30px-top margin-15px-bottom w-80 lg-w-100">Schedule a 15 minute intro call with us. He'll answer your questions and discuss.</p>
+            <p className="margin-30px-top margin-15px-bottom w-80 lg-w-100 text-black">Schedule a 15 minute intro call with us. He'll answer your questions and discuss.</p>
             <a href="#" className="text-small text-extra-dark-gray font-weight-500 text-decoration-line-bottom text-uppercase">Pick a schedule</a>
           </div>
         </div>
