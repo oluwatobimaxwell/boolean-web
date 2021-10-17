@@ -459,10 +459,10 @@ class AboutUs extends Component {
                   </div>
                   <figcaption className="team-member-position padding-35px-tb text-center">
                     <div className="text-extra-dark-gray alt-font line-height-18px text-medium text-uppercase font-weight-500">
-                      Omoyele Samuel
+                      Ronald Emerua
                     </div>
                     <span className="text-small text-uppercase">
-                      Software Developer
+                    Operation Officer
                     </span>
                   </figcaption>
                 </figure>
