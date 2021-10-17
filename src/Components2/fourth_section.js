@@ -9,7 +9,7 @@ class FourthSection extends Component {
               className="col-12 col-lg-6 position-relative text-center md-margin-30px-bottom wow animate__fadeIn"
               data-wow-delay="0.2s"
             >
-              <img src="images/people.jpg" alt="" />
+              <img src="images/home-design-agency-img-01.png" alt="" />
               
             </div>
             <div className="col-12 col-xl-4 col-lg-5 offset-lg-1 col-md-7">
@@ -20,8 +20,8 @@ class FourthSection extends Component {
                 Whatever We Start, We Think Through To The End
               </h5>
               <p>
-              <h6>
-              We do make a plan for designing and developing mobile apps and web development solutions that help businesses to solve organizational challenges, improve sales, and customer engagement. From project ideation to release in the market, we deliver our clients with the best software development service for their business. </h6>
+        
+              We do make a plan for designing and developing mobile apps and web development solutions that help businesses to solve organizational challenges, improve sales, and customer engagement. From project ideation to release in the market, we deliver our clients with the best software development service for their business.
               </p>
             </div>
           </div>
