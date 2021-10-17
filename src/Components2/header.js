@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 class Header extends Component {
   render() {
-    const { navbarClass, imgClass} = this.props;
+    const { navbarClass} = this.props;
     return (
       <header>
         <nav className={navbarClass || "navbar navbar-expand-lg navbar-light bg-transparent header-light fixed-top navbar-boxed header-reverse-scroll"}>

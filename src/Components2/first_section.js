@@ -33,16 +33,7 @@ class FirstSection extends Component {
                 </div>
               </div>
             </div>
-            <div className="scroll-down-bottom">
-              <a
-                href="#about"
-                className="section-link d-block w-2px h-35px bg-white mx-auto right-0px left-0px position-absolute"
-              >
-                <span className="scroll-down-text alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-1-half margin-5px-bottom">
-                  scroll
-                </span>
-              </a>
-            </div>
+            
           </section>
           
         );
