@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import AppLayer from "./AppLayer";
+import Values from "./values";
 
 class Services extends Component {
   render() {
@@ -29,130 +30,12 @@ class Services extends Component {
             </div>
           </div>
         </section>
-        {/* end page title */}
         {/* start section */}
-        <section className="bg-light-gray wow animate__fadeIn">
-          <div className="container">
-            <h4 style={{display:"flex", justifyContent:"center"}}>Our Core Values</h4>
-            <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2">
-              {/* start feature box item */}
-              <div className="col wow animate__fadeIn" data-wow-delay="0.2s">
-                <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
-                  <div className="feature-box-icon">
-                    <i className="line-icon-Navigation-LeftWindow icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
-                  </div>
-                  <div className="feature-box-content last-paragraph-no-margin">
-                    <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
-                      Getting things done
-                    </span>
-                    <p>
-                    Getting Things Done is the mantra we live by. Our ingenious team has a “can-do” attitude and believes in Getting Things Done. This mantra makes sense when we deliver our client’s project on time. 
-                    </p>
-                  </div>
-                  <div className="feature-box-overlay bg-white border-radius-5px" />
-                </div>
-              </div>
-              {/* end feature box item */}
-              {/* start feature box item */}
-              <div className="col wow animate__fadeIn" data-wow-delay="0.4s">
-                <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
-                  <div className="feature-box-icon">
-                    <i className="line-icon-Cursor-Click2 icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
-                  </div>
-                  <div className="feature-box-content last-paragraph-no-margin">
-                    <span className="text-extra-medium alt-font text-extra-dark-gray text-gradient-orange-pink-hover d-block margin-5px-bottom font-weight-500">
-                      Integrity
-                    </span>
-                    <p>
-                    We do care about our clients and their requirements, so we are committed to keep our words and deliver what we say. We maintain trust, transparency, and honesty throughout the project. 
-                    </p>
-                  </div>
-                  <div className="feature-box-overlay bg-white border-radius-5px" />
-                </div>
-              </div>
-              {/* end feature box item */}
-              {/* start feature box item */}
-              <div className="col wow animate__fadeIn" data-wow-delay="0.6s">
-                <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
-                  <div className="feature-box-icon">
-                    <i className="line-icon-Like-2 icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
-                  </div>
-                  <div className="feature-box-content last-paragraph-no-margin">
-                    <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
-                      Quality at work
-                    </span>
-                    <p>
-                    We select very few clients. Reason? We don’t want to compromise with the quality we deliver. But, don’t believe in our words. If you have a specific requirement, try and test us. 
-                    </p>
-                  </div>
-                  <div className="feature-box-overlay bg-white border-radius-5px" />
-                </div>
-              </div>
-              {/* end feature box item */}
-              {/* start feature box item */}
-              <div className="col wow animate__fadeIn" data-wow-delay="0.2s">
-                <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
-                  <div className="feature-box-icon">
-                    <i className="line-icon-Talk-Man icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
-                  </div>
-                  <div className="feature-box-content last-paragraph-no-margin">
-                    <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
-                      Customer satisfaction
-                    </span>
-                    <p>
-                    Excellent customer service is the number one job in any company! It is the personality of the company and the reason customers come back. Without customers there is no company!
-                    </p>
-                  </div>
-                  <div className="feature-box-overlay bg-white border-radius-5px" />
-                </div>
-              </div>
-              {/* end feature box item */}
-              {/* start feature box item */}
-              <div className="col wow animate__fadeIn" data-wow-delay="0.4s">
-                <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
-                  <div className="feature-box-icon">
-                    <i className="line-icon-Heart icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
-                  </div>
-                  <div className="feature-box-content last-paragraph-no-margin">
-                    <span className="text-extra-medium alt-font text-extra-dark-gray text-gradient-orange-pink-hover d-block margin-5px-bottom font-weight-500">
-                      Accountability
-                    </span>
-                    <p>
-                    We don’t believe in just finishing the job, we take it as our own work and nurture it with the utmost care to successfully deliver it. We hold ourselves accountable for the results. 
-                    </p>
-                  </div>
-                  <div className="feature-box-overlay bg-white border-radius-5px" />
-                </div>
-              </div>
-              {/* end feature box item */}
-              {/* start feature box item */}
-              <div className="col wow animate__fadeIn" data-wow-delay="0.6s">
-                <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
-                  <div className="feature-box-icon">
-                    <i className="line-icon-Gear-2 icon-medium text-gradient-light-purple-light-orange margin-40px-bottom md-margin-20px-bottom" />
-                  </div>
-                  <div className="feature-box-content last-paragraph-no-margin">
-                    <span className="text-extra-medium alt-font text-extra-dark-gray d-block margin-5px-bottom font-weight-500">
-                      Innovation
-                    </span>
-                    <p>
-                      Innovation motivates action: to take risks, encourage new ideas, learn from mistakes, and constantly strive to exceed expectations. We generate solutions for our customers and raise the bar both within our workplace and throughout our industry.
-                    </p>
-                  </div>
-                  <div className="feature-box-overlay bg-white border-radius-5px" />
-                </div>
-              </div>
-              {/* end feature box item */}
-            </div>
-          </div>
-        </section>
-        {/* end section */}
-        {/* start section */}
-        <section className="wow animate__fadeIn">
+        <section className="wow animate__fadeIn bg-yellow">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 col-md-5 sm-margin-30px-bottom">
-                <h5 className="alt-font font-weight-500 text-extra-dark-gray mb-0">
+                <h5 className="alt-font font-weight-500 text-black mb-0">
                   We design brand, digital experience that engaged the right
                   customers
                 </h5>
@@ -168,7 +51,7 @@ class Services extends Component {
                     >
                       5000
                     </h5>
-                    <span className="alt-font font-weight-500 text-extra-dark-gray d-block margin-5px-bottom">
+                    <span className="alt-font font-weight-500 text-black d-block margin-5px-bottom">
                       Hours Worked
                     </span>
               
@@ -192,7 +75,7 @@ class Services extends Component {
                 </div>
               </div>
               <div className="col-12">
-                <div className="w-100 h-1px bg-medium-gray margin-7-rem-top margin-8-rem-bottom sm-margin-5-rem-tb" />
+                <div className="w-100 h-1px bg-black margin-7-rem-top margin-8-rem-bottom sm-margin-5-rem-tb" />
               </div>
             </div>
             <div className="row">
@@ -210,7 +93,7 @@ class Services extends Component {
                     >
                       Web Development
                     </a>
-                    <span className="tab-border bg-gradient-light-purple-light-orange" />
+                    <span className="tab-border bg-white" />
                   </li>
                   <li className="nav-item">
                     <a
@@ -220,7 +103,7 @@ class Services extends Component {
                     >
                       iOS Development
                     </a>
-                    <span className="tab-border bg-gradient-light-purple-light-orange" />
+                    <span className="tab-border bg-white" />
                   </li>
                   <li className="nav-item">
                     <a
@@ -230,7 +113,7 @@ class Services extends Component {
                     >
                       Android Development
                     </a>
-                    <span className="tab-border bg-gradient-light-purple-light-orange" />
+                    <span className="tab-border bg-white" />
                   </li>
                   <li className="nav-item">
                     <a
@@ -240,7 +123,7 @@ class Services extends Component {
                     >
                       UI/UX Design
                     </a>
-                    <span className="tab-border bg-gradient-light-purple-light-orange" />
+                    <span className="tab-border bg-white" />
                   </li>
                   <li className="nav-item">
                     <a
@@ -250,7 +133,7 @@ class Services extends Component {
                     >
                       Digital Marketing &amp; SEO
                     </a>
-                    <span className="tab-border bg-gradient-light-purple-light-orange" />
+                    <span className="tab-border bg-white" />
                   </li>
                 </ul>
                 {/* end tab navigation */}
@@ -269,10 +152,10 @@ class Services extends Component {
                         />
                       </div>
                       <div className="col-12 col-lg-5 offset-lg-1 col-md-6">
-                       <h5 className="alt-font font-weight-300 text-extra-dark-gray">
+                       <h5 className="alt-font font-weight-300 text-black">
                           Web Development
                         </h5>
-                        <p className="w-85 lg-w-100">
+                        <p className="w-85 lg-w-100 text-black">
                           
 Our web development experts at The Boolean Tech have accomplished a wide range of commercial projects on varying website development platforms. These include WordPress, PHP, SharePoint, ASP.NET, CakePHP, Joomla and Drupal. As a reputed Web Development Company, we put our best possible efforts to achieve a huge appreciation and satisfaction from our clients.
 
@@ -295,10 +178,10 @@ Eye-catching themes, unique designs and visually appealing website layouts have 
                         />
                       </div>
                       <div className="col-12 col-lg-5 offset-lg-1 col-md-6">
-                        <h5 className="alt-font font-weight-300 text-extra-dark-gray">
+                        <h5 className="alt-font font-weight-300 text-black">
                           iOS Development
                         </h5>
-                        <p className="w-85 lg-w-100">
+                        <p className="w-85 lg-w-100 text-black">
                         The Boolean Tech is well known company for iOS development and we have created a presence in Nigeria with our experience and clients who speak our work and who we had the privilege to work with in last 3+ years. We have developed numerous applications on iPad, and iPhone. The Boolean Tech has a zeal in this sector that makes us one of the most sought after development companies in the world.
 The Boolean Tech is a leading name in Mobile app Development Companies in Nigeria. Our iOS Developers are experts in their trade and provide best solution in development. We are highly skilled in designing dynamic and interactive apps with highly customized features. 
                         </p>
@@ -318,10 +201,10 @@ The Boolean Tech is a leading name in Mobile app Development Companies in Nigeri
                         />
                       </div>
                       <div className="col-12 col-lg-5 offset-lg-1 col-md-6">
-                        <h5 className="alt-font font-weight-300 text-extra-dark-gray">
+                        <h5 className="alt-font font-weight-300 text-black">
                           Android Development
                           </h5>
-                        <p className="w-85 lg-w-100">
+                        <p className="w-85 lg-w-100 text-black">
                           
 The Boolean Tech is a leading mobile app development company in Nigeria, with around 15+ apps in our portfolio working on all OS versions. We have an expert team in developing Android apps. We provide high end enhanced Android apps which helps clients to enhance their business in various industrial verticals.
 We have a separate developing edge and highly technically sound team working from last 4 years in this sphere. Constant research and central approach with our clients and market have increased our diameter of experience in mobile app business.
@@ -343,10 +226,10 @@ We have a separate developing edge and highly technically sound team working fro
                       </div>
                       <div className="col-12 col-lg-5 offset-lg-1 col-md-6">
                   
-                        <h5 className="alt-font font-weight-300 text-extra-dark-gray">
+                        <h5 className="alt-font font-weight-300 text-black">
                           UI/UX Design
                         </h5>
-                        <p className="w-85 lg-w-100">
+                        <p className="w-85 lg-w-100 text-black">
                         With a strong focus on UI/UX design best practices, we make sure the your app feels cool using.
                         </p>
                       </div>
@@ -365,10 +248,10 @@ We have a separate developing edge and highly technically sound team working fro
                       </div>
                       <div className="col-12 col-lg-5 offset-lg-1 col-md-6">
                   
-                        <h5 className="alt-font font-weight-300 text-extra-dark-gray">
+                        <h5 className="alt-font font-weight-300 text-black">
                           Digital Marketing &amp; SEO
                         </h5>
-                        <p className="w-85 lg-w-100">
+                        <p className="w-85 lg-w-100 text-black">
                           
 
 The Boolean Tech provides digital marketing and market research support. Digital marketing services are the best medium to not only connect with clients and partners but also generate trust. Digital marketing is often referred to as ‘online marketing’, ‘internet marketing’ or ‘web marketing’. Digital Marketing is a wide term that refers to wide range of digital advertising techniques applied to attract customers.
@@ -386,6 +269,19 @@ The Boolean Tech has an edge over other players in digital marketing and market 
           </div>
         </section>
         {/* end section */}
+        <section className="bg-black wow animate__fadeIn">
+        <div className="container">
+          <h4
+            className="text-yellow"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            Our Core Values
+          </h4>
+          <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2">
+             <Values/>
+          </div>
+        </div>
+      </section>
         {/* start section */}
         <section className="bg-light-gray wow animate__fadeIn">
           <div className="container">
