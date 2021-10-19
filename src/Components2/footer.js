@@ -22,7 +22,7 @@ class Footer extends Component {
             </div>
             <div className="col-12 col-md-6 order-1 order-lg-2 text-center text-md-start text-lg-center sm-margin-50px-bottom xs-margin-30px-bottom">
               <span className="line-height-normal d-block margin-25px-bottom md-w-80 sm-w-100">
-                <span className="font-weight-500 text-extra-dark-gray">
+                <span className="font-weight-500 text-white">
                   Newsletter sign-up.
                 </span>{" "}
                 Get monthly updates and resources.

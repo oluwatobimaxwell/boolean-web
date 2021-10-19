@@ -4,34 +4,37 @@ class SecondSection extends Component {
     return (
       <section className="bg-black wow animate__fadeIn">
         <div className="container">
-          <h4 className="text-yellow" style={{ display: "flex", justifyContent: "center"}}>
+          <h4
+            className="text-yellow"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             Our Core Values
           </h4>
           <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2">
-            {/* start feature box item */}
-            <div className="col wow animate__fadeIn" data-wow-delay="0.2s">
-              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+             {/* start feature box item */}
+             <div className="col wow animate__fadeIn" data-wow-delay="0.6s">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr feature-box-light-hover">
                 <div className="feature-box-icon">
-                  <i className="line-icon-Navigation-LeftWindow icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
+                  <i className="line-icon-Like-2 icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
                 <div className="feature-box-content last-paragraph-no-margin">
                   <span className="text-extra-medium alt-font text-yellow d-block margin-5px-bottom font-weight-500">
                     Getting things done
                   </span>
                   <p>
-                    Getting Things Done is the mantra we live by. Our ingenious
+                  Getting Things Done is the mantra we live by. Our ingenious
                     team has a “can-do” attitude and believes in Getting Things
                     Done. This mantra makes sense when we deliver our client’s
                     project on time.
                   </p>
                 </div>
-                <div className="feature-box-overlay bg-white border-radius-5px" />
+                <div className="feature-box-overlay bg-white" />
               </div>
             </div>
             {/* end feature box item */}
             {/* start feature box item */}
             <div className="col wow animate__fadeIn" data-wow-delay="0.4s">
-              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr feature-box-light-hover">
                 <div className="feature-box-icon">
                   <i className="line-icon-Cursor-Click2 icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
@@ -46,13 +49,13 @@ class SecondSection extends Component {
                     project.
                   </p>
                 </div>
-                <div className="feature-box-overlay bg-white border-radius-5px" />
+                <div className="feature-box-overlay bg-white" />
               </div>
             </div>
             {/* end feature box item */}
             {/* start feature box item */}
             <div className="col wow animate__fadeIn" data-wow-delay="0.6s">
-              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr feature-box-light-hover">
                 <div className="feature-box-icon">
                   <i className="line-icon-Like-2 icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
@@ -67,13 +70,13 @@ class SecondSection extends Component {
                     test us.
                   </p>
                 </div>
-                <div className="feature-box-overlay bg-white border-radius-5px" />
+                <div className="feature-box-overlay bg-white" />
               </div>
             </div>
             {/* end feature box item */}
             {/* start feature box item */}
             <div className="col wow animate__fadeIn" data-wow-delay="0.2s">
-              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr feature-box-light-hover">
                 <div className="feature-box-icon">
                   <i className="line-icon-Talk-Man icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
@@ -87,13 +90,13 @@ class SecondSection extends Component {
                     customers come back. Without customers there is no company!
                   </p>
                 </div>
-                <div className="feature-box-overlay bg-white border-radius-5px" />
+                <div className="feature-box-overlay bg-white" />
               </div>
             </div>
             {/* end feature box item */}
             {/* start feature box item */}
             <div className="col wow animate__fadeIn" data-wow-delay="0.4s">
-              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr feature-box-light-hover">
                 <div className="feature-box-icon">
                   <i className="line-icon-Heart icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
@@ -108,13 +111,13 @@ class SecondSection extends Component {
                     the results.
                   </p>
                 </div>
-                <div className="feature-box-overlay bg-white border-radius-5px" />
+                <div className="feature-box-overlay bg-white" />
               </div>
             </div>
             {/* end feature box item */}
             {/* start feature box item */}
             <div className="col wow animate__fadeIn" data-wow-delay="0.6s">
-              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr">
+              <div className="feature-box feature-box-shadow padding-twenty-tb padding-twelve-lr xs-padding-fifteen-tb xs-padding-eight-lr feature-box-light-hover">
                 <div className="feature-box-icon">
                   <i className="line-icon-Gear-2 icon-medium text-yellow margin-40px-bottom md-margin-20px-bottom" />
                 </div>
@@ -130,7 +133,7 @@ class SecondSection extends Component {
                     industry.
                   </p>
                 </div>
-                <div className="feature-box-overlay bg-white border-radius-5px" />
+                <div className="feature-box-overlay bg-white" />
               </div>
             </div>
             {/* end feature box item */}

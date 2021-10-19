@@ -64,8 +64,9 @@ class Team extends React.Component {
     render() { 
         const menus = [
             {quote:"I am Trendy", name: "Eric Obianozie", position:"Chief Executive Officer", picture:"images/about-team-01.jpg"},
-            {quote:"I am Creative", name: "Sholanke Oluwatobi", position:"Chief Technology Officer", picture:"images/about-team-03.jpg"},
-            {quote:"I am Cool", name: "Ronald Emerua", position:"Operation Officer", picture:"images/about-team-02.jpg"}
+            {quote:"I am Cool", name: "Ronald Emeruwa", position:"Chief Operation Officer", picture:"images/about-team-02.jpg"},
+            {quote:"I am Creative", name: "Sholanke Oluwatobi", position:"Chief Technology Officer", picture:"images/about-team-03.jpg"}
+            
 
         ];
         return (
