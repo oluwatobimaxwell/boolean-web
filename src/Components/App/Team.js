@@ -10,36 +10,36 @@ class TeamTile extends React.Component {
         <figure>
           <div className="team-member-image border-radius-5px overflow-hidden">
             <img alt="" src={picture} />
-            <div className="team-member-details bg-transparent-gradient-light-purple-light-orange padding-2-half-rem-lr align-items-center justify-content-center d-flex flex-column">
-              <div className="text-white text-uppercase alt-font font-weight-500">
+            <div className="team-member-details padding-2-half-rem-lr align-items-center justify-content-center d-flex flex-column">
+              <div className="text-black text-uppercase alt-font font-weight-500">
                 {quote}
               </div>
               <div className="social-icon w-100 position-absolute bottom-40px left-0px">
                 <a
                   href="https://www.facebook.com/"
                   target="_blank"
-                  className="icon-very-small text-white"
+                  className="icon-very-small text-black"
                 >
                   <i aria-hidden="true" className="fab fa-facebook-f" />
                 </a>
                 <a
                   href="https://twitter.com/"
                   target="_blank"
-                  className="icon-very-small text-white"
+                  className="icon-very-small text-black"
                 >
                   <i aria-hidden="true" className="fab fa-twitter" />
                 </a>
                 <a
                   href="https://www.dribbble.com"
                   target="_blank"
-                  className="icon-very-small text-white"
+                  className="icon-very-small text-black"
                 >
                   <i aria-hidden="true" className="fab fa-dribbble" />
                 </a>
                 <a
                   href="https://www.linkedin.com/"
                   target="_blank"
-                  className="icon-very-small text-white"
+                  className="icon-very-small text-black"
                 >
                   <i aria-hidden="true" className="fab fa-linkedin-in" />
                 </a>

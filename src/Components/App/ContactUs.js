@@ -78,7 +78,7 @@ class ContactUs extends Component {
       <div className="row">
         <div className="col-md-12 px-0">
           <div className="map-style-3 h-500px xs-h-300px">
-          <iframe classname="w-100 h-100 filter-grayscale-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15761.04702017564!2d7.4723841!3d90398707!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x0%3A0x4a445dad6c5a0a80!2sThe%20Boolean%20Technologies%20Nig%20Ltd!5e0!3m2!1sen!2sng!4v1634043314606!5m2!1sen!2sng" style={{border: 0}} allowFullScreen loading="lazy" width={1600} height={500}>
+          <iframe classname="w-100 h-100 filter-grayscale-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15761.04702017564!2d7.4723841!3d90398707!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x0%3A0x4a445dad6c5a0a80!2sThe%20Boolean%20Technologies%20Nig%20Ltd!5e0!3m2!1sen!2sng!4v1634043314606!5m2!1sen!2sng" style={{border: 0}} allowFullScreen loading="lazy" width="100%" height={500}>
 </iframe>          
             </div>
         </div>
@@ -102,7 +102,7 @@ class ContactUs extends Component {
         <div className="col-12 col-sm-auto sm-margin-15px-bottom wow animate__fadeIn" data-wow-delay="0.4s">
           <div className="d-flex justify-content-center align-items-center padding-15px-lr h-100">
             <i className="feather icon-feather-mail align-middle icon-extra-small text-gradient-magenta-orange margin-10px-right" />
-            <a href="mailto:no-reply@domain.com" className="text-extra-dark-gray alt-font text-medium">no-reply@domain.com</a>
+            <a href="mailto:no-reply@domain.com" className="text-extra-dark-gray alt-font text-medium">booleantech@gmail.com</a>
           </div>
         </div>
         {/* end feature box item*/}
@@ -110,7 +110,7 @@ class ContactUs extends Component {
         <div className="col-12 col-sm-auto wow animate__fadeIn" data-wow-delay="0.6s">
           <div className="d-flex justify-content-center align-items-center padding-15px-lr h-100">
             <i className="feather icon-feather-globe align-middle icon-extra-small text-gradient-magenta-orange margin-10px-right" />
-            <a href="#" className="text-extra-dark-gray alt-font text-medium">www.yourdomain.com</a>
+            <a href="#" className="text-extra-dark-gray alt-font text-medium">www.booleantech.com</a>
           </div>
         </div>
         {/* end feature box item*/}

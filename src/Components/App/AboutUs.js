@@ -25,7 +25,7 @@ class AboutUs extends Component {
               </div>
               <div className="down-section text-center">
                 <a href="#about" className="section-link">
-                  <i className="ti-arrow-down icon-extra-small text-white bg-transparent-black padding-15px-all xs-padding-10px-all border-radius-100" />
+                  <i className="ti-arrow-down icon-extra-small text-black bg-yellow padding-15px-all xs-padding-10px-all border-radius-100" />
                 </a>
               </div>
             </div>
@@ -314,14 +314,12 @@ class AboutUs extends Component {
               <div
                 className="col-12 col-xl-5 col-md-4 text-center text-md-end wow animate__fadeIn"
                 data-wow-delay="0.2s"
-              >
-                <a
-                  href="/contact-us"
-                  className="btn btn-large btn-round-edge btn-black btn-slide-right-bg"
-                >
-                  Join the team
+              > 
+              <a href="/contact-us">
+                <button className="join-team">
+                  Join the team  </button>
                   <span className="bg-yellow" />
-                </a>
+                  </a>
               </div>
             </div>
           </div>

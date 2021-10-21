@@ -31,7 +31,7 @@ class Services extends Component {
           </div>
         </section>
         {/* start section */}
-        <section className="wow animate__fadeIn bg-yellow">
+        <section className="wow animate__fadeIn bg-gray">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 col-md-5 sm-margin-30px-bottom">
@@ -93,7 +93,7 @@ class Services extends Component {
                     >
                       Web Development
                     </a>
-                    <span className="tab-border bg-white" />
+                    <span className="tab-border bg-black" />
                   </li>
                   <li className="nav-item">
                     <a
@@ -103,7 +103,7 @@ class Services extends Component {
                     >
                       iOS Development
                     </a>
-                    <span className="tab-border bg-white" />
+                    <span className="tab-border bg-black" />
                   </li>
                   <li className="nav-item">
                     <a
@@ -113,7 +113,7 @@ class Services extends Component {
                     >
                       Android Development
                     </a>
-                    <span className="tab-border bg-white" />
+                    <span className="tab-border bg-black" />
                   </li>
                   <li className="nav-item">
                     <a
@@ -123,7 +123,7 @@ class Services extends Component {
                     >
                       UI/UX Design
                     </a>
-                    <span className="tab-border bg-white" />
+                    <span className="tab-border bg-black" />
                   </li>
                   <li className="nav-item">
                     <a
@@ -133,7 +133,7 @@ class Services extends Component {
                     >
                       Digital Marketing &amp; SEO
                     </a>
-                    <span className="tab-border bg-white" />
+                    <span className="tab-border bg-black" />
                   </li>
                 </ul>
                 {/* end tab navigation */}
@@ -144,14 +144,14 @@ class Services extends Component {
                     className="tab-pane fade in active show"
                   >
                     <div className="row align-items-center">
-                      <div className="col-12 col-md-6 text-end sm-margin-40px-bottom">
+                      <div className="col-12 col-md-6 text-end sm-margin-20px-bottom">
                         <img
-                          src="images/what-we-offers-02.jpg"
+                          src="images/what-we-offers-06.jpg"
                           className="w-90 sm-w-100"
                           alt=""
                         />
                       </div>
-                      <div className="col-12 col-lg-5 offset-lg-1 col-md-6">
+                      <div className="col- 12 col-lg-5 offset-lg-1 col-md-6">
                        <h5 className="alt-font font-weight-300 text-black">
                           Web Development
                         </h5>
@@ -269,21 +269,7 @@ The Boolean Tech has an edge over other players in digital marketing and market 
           </div>
         </section>
         {/* end section */}
-        <section className="bg-black wow animate__fadeIn">
-        <div className="container">
-          <h4
-            className="text-yellow"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
-            Our Core Values
-          </h4>
-          <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2">
-             <Values/>
-          </div>
-        </div>
-      </section>
-        {/* start section */}
-        <section className="bg-light-gray wow animate__fadeIn">
+        <section className="bg-yellow wow animate__fadeIn">
           <div className="container">
             <div className="row align-items-center">
               <div
@@ -303,13 +289,13 @@ The Boolean Tech has an edge over other players in digital marketing and market 
                 className="col-12 col-xl-5 col-lg-6 order-lg-1 padding-five-right sm-padding-15px-right wow animate__fadeIn"
                 data-wow-delay="0.2s"
               >
-                <h5 className="alt-font cd-headline slide font-weight-500 text-extra-dark-gray line-height-40px margin-40px-bottom">
+                <h5 className="alt-font cd-headline slide font-weight-500 text-black line-height-40px margin-40px-bottom">
                   <span className="d-initial p-0">
                   We convert ideas into successful mobile and web-based solutions.
                   </span>
               
                 </h5>
-                <p>
+                <p className="text-gray font-weight-500">
                 We provide end-to-end software development services without compromising standard processes and quality assurance. We have served multiple companies globally transforming concepts into genuine products. 
                 </p>
                 <ul className="list-style-01 text-extra-dark-gray">

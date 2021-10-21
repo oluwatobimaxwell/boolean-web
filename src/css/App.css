@@ -50,3 +50,25 @@ cursor: pointer;
 .nav-item:hover .dropdown-menu{
   display:block!important
 }
+.team-member-details{
+  background: rgba(255, 255, 9, 0.884);
+
+}
+.join-team {
+  background-color: yellow;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+.join-team:hover{
+  background-color: black;
+  color: yellow;
+  
+ 
+}

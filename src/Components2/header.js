@@ -64,7 +64,7 @@ class Header extends Component {
 
                   <li className="nav-item dropdown simple-dropdown">
                     
-                    <a href="/services" className="nav-link">
+                    <a href="#" className="nav-link">
                       Products </a>
                     <i
                       className="fa fa-angle-down dropdown-toggle"
@@ -72,8 +72,8 @@ class Header extends Component {
                       aria-hidden="true"
                     />
                     <ul className="dropdown-menu" role="menu">
-                      <li className="dropdown">
-                        <a data-bs-toggle="dropdown" href="javascript:void(0);">
+                      <li className="nav-item dropdown simple-dropdown">
+                        <a href="/resulta" >
                           Resulta - School Management System
                           
                         </a>
