@@ -87,37 +87,46 @@ class KryptonPay extends Component {
     <div className="container">
       <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2 justify-content-center">
         {/* start services item */}
-        <div className="col md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInLeft" data-wow-delay="0.4s">
-          <div className="bg-light-gray last-paragraph-no-margin">
-            <img src="images/single-project-page-03-img10.jpg" alt="" />
-            <div className="text-center position-relative padding-3-half-rem-all md-padding-2-half-rem-all">
-              <span className="alt-font text-extra-dark-gray font-weight-500 margin-10px-bottom d-block">Business card design</span>
-              <p>Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor</p>
+        <a href="https://4g4.95c.myftpupload.com/2022/03/nft/">
+          <div className="col md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInLeft" data-wow-delay="0.4s">
+            <div className="bg-light-gray last-paragraph-no-margin">
+              <img src="images/kp-post1-doge.jpg" alt="" />
+                <div className="text-center position-relative padding-3-half-rem-all md-padding-2-half-rem-all">
+                  <span className="alt-font text-extra-dark-gray font-weight-500 margin-10px-bottom d-block">
+                    NFT
+                  </span>
+                  <p>NFTs seems to be all the rage these days, there are a lot of hard-to-believe stories about it, stories that range from “Flying war babies”(a digital art) being sold for $5.8 million...</p>
+                </div>
             </div>
           </div>
-        </div>
+        </a>
         {/* end services item */}
         {/* start services item */}
         <div className="col md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInLeft" data-wow-delay="0.2s">
           <div className="bg-light-gray last-paragraph-no-margin">
-            <img src="images/single-project-page-03-img11.jpg" alt="" />
+            <img src="images/kp-post2-crypto.jpg" alt="" />
             <div className="text-center position-relative padding-3-half-rem-all md-padding-2-half-rem-all">
-              <span className="alt-font text-extra-dark-gray font-weight-500 margin-10px-bottom d-block">Folder and file design</span>
-              <p>Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor</p>
+              <span className="alt-font text-extra-dark-gray font-weight-500 margin-10px-bottom d-block">A brief history of cryptocurrency</span>
+              <p>A Cryptocurrency is a digital currency designed to work as a form of exchange that works without a central authority to uphold it.
+              Bitcoin was created in 2009...</p>
             </div>
           </div>
         </div>
         {/* end services item */}
         {/* start services item */}
-        <div className="col wow animate__fadeInLeft">
-          <div className="bg-light-gray last-paragraph-no-margin">
-            <img src="images/single-project-page-03-img12.jpg" alt="" />
-            <div className="text-center position-relative padding-3-half-rem-all md-padding-2-half-rem-all">
-              <span className="alt-font text-extra-dark-gray font-weight-500 margin-10px-bottom d-block">Brochure design</span>
-              <p>Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor</p>
+        <a href="https://4g4.95c.myftpupload.com/2022/03/nft/">
+          <div className="col md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInLeft" data-wow-delay="0.4s">
+            <div className="bg-light-gray last-paragraph-no-margin">
+              <img src="images/kp-post1-doge.jpg" alt="" />
+                <div className="text-center position-relative padding-3-half-rem-all md-padding-2-half-rem-all">
+                  <span className="alt-font text-extra-dark-gray font-weight-500 margin-10px-bottom d-block">
+                    NFT
+                  </span>
+                  <p>NFTs seems to be all the rage these days, there are a lot of hard-to-believe stories about it, stories that range from “Flying war babies”(a digital art) being sold for $5.8 million...</p>
+                </div>
             </div>
           </div>
-        </div>
+        </a>
         {/* end services item */}
       </div>
     </div>
@@ -133,8 +142,6 @@ class KryptonPay extends Component {
             <ul className="large-icon">
               <li><a className="facebook" href="https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f" /><span /></a></li>
               <li><a className="instagram" href="https://www.instagram.com/kryptonpay.co/" target="_blank"><i className="fab fa-instagram" /><span /></a></li>
-              <li><a className="dribbble" href="http://www.dribbble.com" target="_blank"><i className="fab fa-dribbble" /><span /></a></li>
-              <li><a className="behance" href="http://www.behance.com/" target="_blank"><i className="fab fa-behance" /><span /></a></li>
             </ul>
           </div>
         </div>
@@ -151,10 +158,9 @@ class KryptonPay extends Component {
           <div className="col-12 col-lg-4 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
             <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Company</span>
             <ul>
-              <li><a href="about-us.html">About company</a></li>
-              <li><a href="our-services.html">Company services</a></li>
-              <li><a href="our-team.html">Job opportunities</a></li>
-              <li><a href="contact-us-classic.html">Contact us</a></li>
+              <li><a href="https://4g4.95c.myftpupload.com/about">About company</a></li>
+              <li><a href="https://4g4.95c.myftpupload.com/help-center">Help</a></li>
+              <li><a href="https://4g4.95c.myftpupload.com/contact">Contact us</a></li>
             </ul>
           </div>
           {/* end footer column */}
