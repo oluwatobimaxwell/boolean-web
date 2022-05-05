@@ -17,7 +17,7 @@ class Footer extends Component {
                 />
               </a>
               <p className>
-               © Copyright 2021{" "} </p>
+               © Copyright 2022{" "} </p>
              
             </div>
             <div className="col-12 col-md-6 order-1 order-lg-2 text-center text-md-start text-lg-center sm-margin-50px-bottom xs-margin-30px-bottom">
