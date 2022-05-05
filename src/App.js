@@ -9,7 +9,7 @@ import {
 import AboutUs from "./Components/App/AboutUs";
 import Services from "./Components/App/Services";
 import ContactUs from "./Components/App/ContactUs";
-import Resulta from "./Components/App/Resulta";
+import KryptonPay from "./Components/App/KryptonPay";
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/about-us" component={AboutUs} />
         <Route exact path="/services" component={Services} />
         <Route exact path="/contact-us" component={ContactUs} />
-        <Route exact path="/resulta" component={Resulta} />
+        <Route exact path="/krypton-pay" component={KryptonPay} />
       </Switch>
     </Router>
   );

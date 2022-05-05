@@ -73,29 +73,28 @@ class Header extends Component {
                     />
                     <ul className="dropdown-menu" role="menu">
                       <li className="nav-item dropdown simple-dropdown">
-                        <a href="/resulta" >
-                          Resulta - School Management System
-                          
+                        <a href="/krypton-pay" >
+                          Krypton Pay
                         </a>
                         
                       </li>
-                      <li className="dropdown">
+                      {/* <li className="dropdown">
                         <a data-bs-toggle="dropdown" href="javascript:void(0);">
                           Face Analyzer - Skin Care Assistant
                         
                         </a>
 
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
                   
 
-                  <li className="nav-item dropdown simple-dropdown">
+                  {/* <li className="nav-item dropdown simple-dropdown">
                     <a href="#" className="nav-link">
                       Blog
                     </a>
                     
-                  </li>
+                  </li> */}
                       
                   <li className="nav-item dropdown megamenu">
                     <a href="/contact-us" className="nav-link">

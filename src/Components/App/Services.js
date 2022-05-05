@@ -64,7 +64,7 @@ class Services extends Component {
                       data-to={2000}
                       data-speed={7000}
                     >
-                      200
+                      60
                     </h5>
                     <span className="alt-font font-weight-500 text-extra-dark-gray d-block margin-5px-bottom">
                       Completed projects
