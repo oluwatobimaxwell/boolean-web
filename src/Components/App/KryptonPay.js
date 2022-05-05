@@ -15,7 +15,7 @@ class KryptonPay extends Component {
         <div className="col-10 col-lg-8 col-sm-7">
           <div className="position-relative text-center text-sm-end">
             <div className="w-90 h-1px bg-brown position-absolute top-30px right-0px d-none z-index-0 d-sm-block sm-w-100 sm-top-25px" />
-            <a href="#" className="bg-brown text-white text-extra-medium line-height-20px z-index-9 position-relative d-inline-block padding-20px-tb padding-35px-lr sm-padding-15px-tb sm-padding-25px-lr">www.sixthsense.com</a>
+            <a href="#" className="bg-brown text-white text-extra-medium line-height-20px z-index-9 position-relative d-inline-block padding-20px-tb padding-35px-lr sm-padding-15px-tb sm-padding-25px-lr">https://4g4.95c.myftpupload.com/</a>
           </div>
         </div>
       </div>
@@ -64,57 +64,6 @@ class KryptonPay extends Component {
         </div>
         <div className="col-12 col-lg-5 offset-lg-1 last-paragraph-no-margin wow animate__fadeIn" data-wow-delay="0.4s">
           <p>Lorem ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industry's standard dummy text ever since when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/* end section */}
-  {/* start section */}
-  <section className="py-0 padding-eight-lr xl-padding-five-lr lg-padding-three-lr xs-no-padding-lr">
-    <div className="container-fluid">
-      <div className="row justify-content-center">
-        <div className="col-12 cover-background one-third-screen d-flex justify-content-center flex-column text-center" style={{backgroundImage: 'url("images/single-project-page-03-img09.jpg")'}}>
-          <a href="https://www.youtube.com/watch?v=g0f_BRYJLJE" className="popup-youtube video-icon-box video-icon-large">
-            <span>
-              <span className="video-icon bg-brown">
-                <i className="icon-simple-line-control-play text-white" />
-                <span className="video-icon-sonar">
-                  <span className="video-icon-sonar-bfr bg-brown opacity-7" />
-                </span>
-              </span>
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/* end section */}
-  {/* start section */}
-  <section className="big-section">
-    <div className="container">
-      <div className="row align-items-center">
-        <div className="col-12 col-xl-6 col-md-5 sm-margin-30px-bottom wow animate__fadeInLeft"><img src="images/single-project-page-03-img08.jpg" alt="" /></div>
-        <div className="col-12 col-xl-5 col-lg-6 offset-lg-1 col-md-7">
-          <h5 className="alt-font text-extra-dark-gray">A woman carries her clothes but shoe <span className="font-weight-500">carries the woman</span></h5>
-          <p className="margin-4-half-rem-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ligula eros, sollicitudin sed orci ut, vehicula fringilla turpis. Quisque tincidunt nulla id suscipit sodales. Suspendisse potenti nam iaculis lectus id odio mollis porttitor.</p>
-          <div className="row row-cols-1">
-            <div className="col col-sm text-center xs-margin-30px-bottom wow animate__fadeIn">
-              <i className="line-icon-Blouse icon-medium text-brown margin-20px-bottom sm-no-margin" />
-              <span className="alt-font font-weight-500 text-small line-height-18px text-uppercase d-block">Smooth cotton</span>
-            </div>
-            <div className="col col-sm offset-lg-1 text-center xs-margin-30px-bottom wow animate__fadeIn" data-wow-delay="0.2s">
-              <i className="line-icon-Leafs icon-medium text-brown margin-20px-bottom sm-no-margin" />
-              <span className="alt-font font-weight-500 text-small line-height-18px text-uppercase d-block">Natural fabric</span>
-            </div>
-            <div className="col col-sm offset-lg-1 text-center xs-margin-30px-bottom wow animate__fadeIn" data-wow-delay="0.4s">
-              <i className="line-icon-Polo-Shirt icon-medium text-brown margin-20px-bottom sm-no-margin" />
-              <span className="alt-font font-weight-500 text-small line-height-18px text-uppercase d-block">Stretch fabric</span>
-            </div>
-            <div className="col col-sm offset-lg-1 text-center wow animate__fadeIn" data-wow-delay="0.6s">
-              <i className="line-icon-Box-Open icon-medium text-brown margin-20px-bottom sm-no-margin" />
-              <span className="alt-font font-weight-500 text-small line-height-18px text-uppercase d-block">Fabric printing</span>
-            </div>
-          </div>
         </div>
       </div>
     </div>
