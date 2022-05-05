@@ -50,7 +50,8 @@ class KryptonPay extends Component {
   <section className="overflow-visible position-relative padding-eight-lr xl-padding-five-lr lg-padding-three-lr xs-padding-15px-lr">
     <div className="container-fluid">
       <div className="row">
-        <div className="col-12 fix-background overlap-section text-center one-fourth-screen xs-h-300px" style={{backgroundImage: 'url("images/single-project-page-03-img03.jpg")'}} />
+        {/* <div className="col-12 fix-background overlap-section text-center one-fourth-screen xs-h-300px" style={{backgroundImage: 'url("images/single-project-page-03-img03.jpg")'}} /> */}
+        <div className="col-12 fix-background overlap-section text-center xs-h-300px" style={{backgroundImage: 'url("images/kp-2.png")', height: "500px", backgroundSize: "initial"}} />
       </div>
     </div>
   </section>
@@ -72,11 +73,12 @@ class KryptonPay extends Component {
   {/* start section */}
   <section className="py-0 padding-eight-lr xl-padding-five-lr lg-padding-three-lr xs-padding-15px-lr">
     <div className="container-fluid">   
-      <div className="row">
-        <div className="col-12 col-lg-3 col-sm-6 cover-background one-fourth-screen lg-h-450px md-h-650px sm-h-450px xs-h-650px md-margin-15px-bottom" style={{backgroundImage: 'url("images/single-project-page-03-img07.jpg")'}} />
-        <div className="col-12 col-lg-3 col-sm-6 cover-background one-fourth-screen lg-h-450px md-h-650px sm-h-450px xs-h-650px md-margin-15px-bottom" style={{backgroundImage: 'url("images/single-project-page-03-img06.jpg")'}} />
-        <div className="col-12 col-lg-6 cover-background one-fourth-screen lg-h-450px" style={{backgroundImage: 'url("images/single-project-page-03-img05.jpg")'}} />
-      </div>
+          <img src="images/kp-2.png"></img>
+      {/* <div className="row"> */}
+        {/* <div className="col-12 col-lg-6 col-sm-6 cover-background one-fourth-screen lg-h-450px md-h-650px sm-h-450px xs-h-650px md-margin-15px-bottom" style={{backgroundImage: 'url("images/kp-2.png")'}} /> */}
+        {/* <div className="col-12 col-lg-3 col-sm-6 cover-background one-fourth-screen lg-h-450px md-h-650px sm-h-450px xs-h-650px md-margin-15px-bottom" style={{backgroundImage: 'url("images/single-project-page-03-img06.jpg")'}} /> */}
+        {/* <div className="col-12 col-lg-6 cover-background one-fourth-screen lg-h-450px" style={{backgroundImage: 'url("images/single-project-page-03-img05.jpg")'}} /> */}
+      {/* </div> */}
     </div>
   </section>
   {/* end section */}
@@ -146,110 +148,6 @@ class KryptonPay extends Component {
     </div>
   </section>
   {/* end section */}
-  {/* start section */}
-  <section className="py-0 padding-eight-lr xl-padding-five-lr lg-padding-two-lr xs-no-padding-lr">
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col px-md-0">
-          <ul className="portfolio-overlay portfolio-wrapper grid grid-loading grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center">
-            <li className="grid-sizer" />
-            {/* start lightbox gallery item */}
-            <li className="grid-item wow animate__fadeIn">
-              <a href="images/single-project-page-03-img14.jpg" title="Lightbox gallery image title..." data-group="lightbox-gallery" className="lightbox-group-gallery-item">
-                <div className="portfolio-box">
-                  <div className="portfolio-image bg-brown">
-                    <img src="images/single-project-page-03-img14.jpg" alt="" />
-                    <div className="portfolio-hover justify-content-end d-flex flex-column padding-50px-tb lg-padding-30px-tb xs-padding-15px-tb">
-                      <i className="feather icon-feather-zoom-in portfolio-plus-icon font-weight-300 text-white absolute-middle-center icon-small move-top-bottom" />
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            {/* end lightbox gallery item */}
-            {/* start lightbox gallery item */}
-            <li className="grid-item wow animate__fadeIn" data-wow-delay="0.2s">
-              <a href="images/single-project-page-03-img15.jpg" title="Lightbox gallery image title..." data-group="lightbox-gallery" className="lightbox-group-gallery-item">
-                <div className="portfolio-box">
-                  <div className="portfolio-image bg-brown">
-                    <img src="images/single-project-page-03-img15.jpg" alt="" />
-                    <div className="portfolio-hover justify-content-end d-flex flex-column padding-50px-tb lg-padding-30px-tb xs-padding-15px-tb">
-                      <i className="feather icon-feather-zoom-in portfolio-plus-icon font-weight-300 text-white absolute-middle-center icon-small move-top-bottom" />
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            {/* end lightbox gallery item */}
-            {/* start lightbox gallery item */}
-            <li className="grid-item wow animate__fadeIn" data-wow-delay="0.4s">
-              <a href="images/single-project-page-03-img16.jpg" title="Lightbox gallery image title..." data-group="lightbox-gallery" className="lightbox-group-gallery-item">
-                <div className="portfolio-box">
-                  <div className="portfolio-image bg-brown">
-                    <img src="images/single-project-page-03-img16.jpg" alt="" />
-                    <div className="portfolio-hover justify-content-end d-flex flex-column padding-50px-tb lg-padding-30px-tb xs-padding-15px-tb">
-                      <i className="feather icon-feather-zoom-in portfolio-plus-icon font-weight-300 text-white absolute-middle-center icon-small move-top-bottom" />
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            {/* end lightbox gallery item */}
-            {/* start lightbox gallery item */}
-            <li className="grid-item wow animate__fadeIn" data-wow-delay="0.6s">
-              <a href="images/single-project-page-03-img17.jpg" title="Lightbox gallery image title..." data-group="lightbox-gallery" className="lightbox-group-gallery-item">
-                <div className="portfolio-box">
-                  <div className="portfolio-image bg-brown">
-                    <img src="images/single-project-page-03-img17.jpg" alt="" />
-                    <div className="portfolio-hover justify-content-end d-flex flex-column padding-50px-tb lg-padding-30px-tb xs-padding-15px-tb">
-                      <i className="feather icon-feather-zoom-in portfolio-plus-icon font-weight-300 text-white absolute-middle-center icon-small move-top-bottom" />
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            {/* end lightbox gallery item */}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/* end section */}
-  {/* start section */}
-  <section>
-    <div className="container">
-      <div className="row">
-        <div className="col text-center"><img src="images/single-project-page-03-img13.jpg" alt="" /></div>
-      </div>
-    </div>
-  </section>
-  {/* end section */}
-  {/* start section */}
-  <section className="fancy-box-background fancy-box-col bg-light-gray p-0">
-    <div className="container-fluid">
-      <div className="row row-cols-1 row-cols-sm-2 justify-content-center">
-        {/* start prev pagination */}
-        <div className="col fancy-box-item px-0">
-          <a href="single-project-page-01.html" className="d-flex h-100 align-items-center justify-content-center justify-content-lg-between justify-content-sm-start padding-7-rem-lr padding-4-rem-tb xl-padding-3-rem-all xs-padding-2-rem-tb xs-no-padding-lr">
-            <div className="bg-banner-image cover-background" style={{backgroundImage: 'url(images/single-project-page-01-img24.jpg)'}} />
-            <div className="light alt-font text-extra-dark-gray font-weight-500 btn-slide-icon-left text-uppercase me-lg-auto"><i className="line-icon-Arrow-OutLeft icon-medium align-middle margin-20px-right" /><span className="d-none d-lg-inline-block text-small">Prev project</span></div>
-            <span className="light text-extra-large alt-font text-extra-dark-gray d-block font-weight-500">Model photography</span>
-          </a>
-        </div>
-        {/* end prev pagination */}
-        {/* start next pagination */}
-        <div className="col fancy-box-item px-0">
-          <a href="single-project-page-03.html" className="d-flex h-100 align-items-center justify-content-center justify-content-sm-end justify-content-lg-between padding-7-rem-lr padding-4-rem-tb xl-padding-3-rem-all xs-padding-2-rem-tb xs-no-padding-lr">
-            <div className="bg-banner-image cover-background" style={{backgroundImage: 'url(images/single-project-page-01-img23.jpg)'}} />
-            <span className="light text-extra-large alt-font text-extra-dark-gray d-block font-weight-500 me-lg-auto">Daimler financial</span>
-            <div className="light alt-font text-extra-dark-gray font-weight-500 btn-slide-icon text-uppercase"><span className="d-none d-lg-inline-block text-small">Next project </span><i className="line-icon-Arrow-OutRight icon-medium align-middle margin-20px-left" /></div>
-          </a>
-        </div>
-        {/* end next pagination */}
-      </div>
-    </div>
-  </section>
-  {/* end section */}        
   {/* start footer */}
   <footer className="footer-dark bg-slate-blue">
     <div className="footer-top padding-five-tb lg-padding-eight-tb md-padding-50px-tb">
