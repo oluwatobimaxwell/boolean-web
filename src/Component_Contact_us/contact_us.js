@@ -10,7 +10,7 @@ class ContactUs extends React.Component {
     <nav className="navbar navbar-expand-lg navbar-light bg-transparent header-light fixed-top border-bottom border-color-black-transparent header-reverse-scroll">
       <div className="container-lg nav-header-container">
         <div className="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
-          <a className="navbar-brand" href="index.html">
+          <a className="navbar-brand" href="/">
             <img src="images/logo-black.png" data-at2x="images/logo-black@2x.png" className="default-logo" alt="" />
             <img src="images/logo-fast-blue-black.png" data-at2x="images/logo-fast-blue-black@2x.png" className="alt-logo" alt="" />
             <img src="images/logo-fast-blue-black.png" data-at2x="images/logo-fast-blue-black@2x.png" className="mobile-logo" alt="" />
@@ -445,12 +445,12 @@ class ContactUs extends React.Component {
                     </ul>
                     <ul className="d-lg-inline-block d-none small-gap">
                       <li>
-                        <a href="index.html" className="menu-banner-image"><img src="images/menu-banner-01.jpg" alt="" /></a>
+                        <a href="/" className="menu-banner-image"><img src="images/menu-banner-01.jpg" alt="" /></a>
                       </li>
                     </ul>
                     <ul className="d-lg-inline-block d-none no-padding-right">
                       <li>
-                        <a href="index.html" className="menu-banner-image"><img src="images/menu-banner-02.jpg" alt="" /></a>
+                        <a href="/" className="menu-banner-image"><img src="images/menu-banner-02.jpg" alt="" /></a>
                       </li>
                     </ul>
                   </div>
@@ -715,7 +715,7 @@ class ContactUs extends React.Component {
       <div className="container"> 
         <div className="row align-items-center">
           <div className="col-12 col-md-3 text-center text-md-start sm-margin-20px-bottom">
-            <a href="index.html" className="footer-logo"><img src="images/logo-white.png" data-at2x="images/logo-white@2x.png" alt="" /></a>
+            <a href="/" className="footer-logo"><img src="images/logo-white.png" data-at2x="images/logo-white@2x.png" alt="" /></a>
           </div>
           <div className="col-12 col-md-6 text-center last-paragraph-no-margin sm-margin-20px-bottom">
             <p>© 2021 Litho is Proudly Powered by <a href="https://www.themezaa.com/" target="_blank">ThemeZaa</a></p>

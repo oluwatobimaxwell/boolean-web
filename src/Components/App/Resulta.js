@@ -354,7 +354,7 @@ class Resulta extends Component {
       <div className="container"> 
         <div className="row align-items-center">
           <div className="col-12 col-md-3 text-center text-md-start sm-margin-20px-bottom">
-            <a href="index.html" className="footer-logo"><img src="images/logo-white.png" data-at2x="images/logo-white@2x.png" alt="" /></a>
+            <a href="/" className="footer-logo"><img src="images/logo-white.png" data-at2x="images/logo-white@2x.png" alt="" /></a>
           </div>
           <div className="col-12 col-md-6 text-center last-paragraph-no-margin sm-margin-20px-bottom">
             <p>© 2021 Litho is Proudly Powered by <a href="https://www.themezaa.com/" target="_blank">ThemeZaa</a></p>

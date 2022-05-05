@@ -9,7 +9,7 @@ class Services extends React.Component {
             <nav className="navbar top-space navbar-expand-lg navbar-light bg-white header-light navbar-boxed fixed-top header-reverse-scroll">
               <div className="container-fluid nav-header-container">
                 <div className="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
-                  <a className="navbar-brand" href="index.html">
+                  <a className="navbar-brand" href="/">
                     <img
                       src="images/logo-fast-blue-black.png"
                       data-at2x="images/logo-fast-blue-black@2x.png"
@@ -1495,7 +1495,7 @@ class Services extends React.Component {
                             <ul className="d-lg-inline-block d-none small-gap">
                               <li>
                                 <a
-                                  href="index.html"
+                                  href="/"
                                   className="menu-banner-image"
                                 >
                                   <img src="images/menu-banner-01.jpg" alt="" />
@@ -1505,7 +1505,7 @@ class Services extends React.Component {
                             <ul className="d-lg-inline-block d-none no-padding-right">
                               <li>
                                 <a
-                                  href="index.html"
+                                  href="/"
                                   className="menu-banner-image"
                                 >
                                   <img src="images/menu-banner-02.jpg" alt="" />
@@ -1722,7 +1722,7 @@ class Services extends React.Component {
                 <div className="col-xl-4 col-lg-6 text-center text-lg-end breadcrumb justify-content-center justify-content-lg-end text-small alt-font md-margin-15px-top">
                   <ul>
                     <li>
-                      <a href="index.html">Home</a>
+                      <a href="/">Home</a>
                     </li>
                     <li>
                       <a href="#">Pages</a>
@@ -2723,7 +2723,7 @@ class Services extends React.Component {
               <div className="container">
                 <div className="row align-items-center">
                   <div className="col-12 col-md-3 text-center text-md-start sm-margin-20px-bottom">
-                    <a href="index.html" className="footer-logo">
+                    <a href="/" className="footer-logo">
                       <img
                         src="images/logo-white.png"
                         data-at2x="images/logo-white@2x.png"

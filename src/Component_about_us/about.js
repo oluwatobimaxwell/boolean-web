@@ -970,7 +970,7 @@ class AboutApp extends React.Component {
               <div className="container">
                 <div className="row align-items-center">
                   <div className="col-12 col-md-3 text-center text-md-start sm-margin-20px-bottom">
-                    <a href="index.html" className="footer-logo">
+                    <a href="/" className="footer-logo">
                       <img
                         src="images/logo-white.png"
                         data-at2x="images/logo-white@2x.png"
