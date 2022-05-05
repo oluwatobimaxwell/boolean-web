@@ -27,8 +27,8 @@ class KryptonPay extends Component {
     <div className="container">
       <div className="row overlap-gap-section">
         <div className="col-12 col-xl-4 col-lg-5 pe-xl-0 md-margin-30px-bottom">
-          <span className="d-block text-small text-uppercase margin-20px-bottom md-margin-10px-bottom">About the project information</span>
-          <h6 className="alt-font text-extra-dark-gray letter-spacing-minus-1px mb-0 w-80 xs-w-100">I always feel great when I don't have clothes on.</h6>
+          <span className="d-block text-small text-uppercase margin-20px-bottom md-margin-10px-bottom">About Krypton Pay</span>
+          <h6 className="alt-font text-extra-dark-gray letter-spacing-minus-1px mb-0 w-80 xs-w-100">We are a company invested in making it easy for businesses to accept crypto payments with a priority on fast and secure transactions.</h6>
         </div>
         <div className="col-12 col-lg-2 offset-xl-1 col-md-4 sm-margin-20px-bottom">
           <span className="d-block text-small text-uppercase margin-20px-bottom md-margin-10px-bottom">Awards</span>
@@ -61,10 +61,10 @@ class KryptonPay extends Component {
     <div className="container">
       <div className="row">
         <div className="col-12 col-lg-6 md-margin-30px-bottom xs-margin-20px-bottom wow animate__fadeIn" data-wow-delay="0.2s">
-          <h5 className="alt-font text-extra-dark-gray mb-0">Fashion is a form of <span className="font-weight-600">ugliness so intolerable</span> that we have to alter it every six months.</h5>
+          <h5 className="alt-font text-extra-dark-gray mb-0">Start accepting Crypto Payments today!​</h5>
         </div>
         <div className="col-12 col-lg-5 offset-lg-1 last-paragraph-no-margin wow animate__fadeIn" data-wow-delay="0.4s">
-          <p>Lorem ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industry's standard dummy text ever since when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p>Crypto payments are fast becoming a mainstream payment method, make your business more durable by accepting payments from crypto currency holders.</p>
         </div>
       </div>
     </div>
