@@ -44,7 +44,7 @@ class EightSection extends Component {
             >
               <a
                 href="/contact-us"
-                className="btn btn-fancy btn-box-shadow btn-medium btn-dark-gray"
+                className="btn btn-fancy btn-box-shadow btn-small btn-dark-gray"
               >
                 Start a project
               </a>
