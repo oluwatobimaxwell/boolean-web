@@ -39,8 +39,7 @@ class EightSection extends Component {
               data-wow-delay="0.4s"
               style = {{
                 position: "absolute",
-                top: "5%",
-                right: "-5px",
+                top: "0",
               }}              
             >
               <a
