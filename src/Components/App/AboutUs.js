@@ -58,7 +58,7 @@ class AboutUs extends Component {
                 </div>
               </div>
               <div className="col-12 col-lg-4 col-md-6">
-                <img src="images/about-us-img-01.jpg" alt="" />
+                <img src="new_images/pexels-kampus-production-5940708.jpg" alt="" />
                 <div className="bg-black padding-3-half-rem-lr padding-3-rem-tb lg-padding-2-rem-all md-padding-2-half-rem-all sm-padding-4-rem-all last-paragraph-no-margin">
                   <span className="alt-font text-yellow font-weight-500 margin-10px-bottom d-block">
                     Our Mission
@@ -139,7 +139,7 @@ class AboutUs extends Component {
                   <div className="swiper-wrapper">
                     {/* start slider item */}
                     <div className="swiper-slide">
-                      <img src="images/about-us-img-08.jpg" alt="" />
+                      <img src="new_images/pexels-andrea-piacquadio-3892920.jpg" alt="" />
                     </div>
                     {/* end slider item */}
                     {/* start slider item */}
@@ -154,18 +154,18 @@ class AboutUs extends Component {
                     {/* end slider item */}
                   </div>
                   {/* start slider navigation */}
-                  <div className="swiper-button-next-nav swiper-button-next slider-navigation-style-01 light">
+                  {/* <div className="swiper-button-next-nav swiper-button-next slider-navigation-style-01 light">
                     <i
                       className="feather icon-feather-arrow-right"
                       aria-hidden="true"
                     />
-                  </div>
-                  <div className="swiper-button-previous-nav swiper-button-prev slider-navigation-style-01 light">
+                  </div> */}
+                  {/* <div className="swiper-button-previous-nav swiper-button-prev slider-navigation-style-01 light">
                     <i
                       className="feather icon-feather-arrow-left"
                       aria-hidden="true"
                     />
-                  </div>
+                  </div> */}
                   {/* end slider navigation */}
                 </div>
                 {/* end slider */}
