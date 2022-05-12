@@ -40,7 +40,7 @@ class EightSection extends Component {
               style = {{
                 position: "absolute",
                 top: "5%",
-                left: "85%",
+                right: "-5px",
               }}              
             >
               <a
