@@ -9,6 +9,8 @@ import SecondSection from "../../Components2/second_section";
 
 import SixthSection from "../../Components2/sixth_section";
 
+import NinthSection from "../../Components2/ninth_section";
+
 import AppLayer from "./AppLayer";
 class HomeApp extends Component {
   render() {
@@ -26,6 +28,8 @@ class HomeApp extends Component {
           <SixthSection />
 
           <EightSection />
+
+          {/* <NinthSection /> */}
 
       </AppLayer>
      
