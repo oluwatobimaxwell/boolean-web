@@ -5,7 +5,7 @@ class EightSection extends Component {
       <section
         className="big-section home-design-agency"
         style={{
-          background: 'url("new_images/updated_boo_bg.jpg")',
+          background: 'url("new_images/updated_boo_bg1.jpg")',
           "background-size": "100% 100%",
           "background-repeat": "no-repeat",
           "background-position": "left top",
