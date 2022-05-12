@@ -4,10 +4,10 @@ class EightSection extends Component {
     return (
       <section
         className="big-section home-design-agency"
-        style={{
-          background:
-            'url("images/home-design-agency-bg-img-02.png") no-repeat center right',
-        }}
+        // style={{
+        //   background:
+        //     'url("images/home-design-agency-bg-img-02.png") no-repeat center right',
+        // }}
       >
         <div className="container">
           <div className="row align-items-center">
