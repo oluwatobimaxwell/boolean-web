@@ -6,7 +6,7 @@ class FirstSection extends Component {
             className="parallax p-0"
             data-parallax-background-ratio="0.3"
             style={{
-              backgroundImage: 'url("new_images/boolean_bg_left.jpg")',
+              backgroundImage: 'url("new_images/boolean_bg_left1.jpg")',
             }}
           >
             <div
