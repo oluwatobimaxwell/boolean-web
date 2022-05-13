@@ -9,7 +9,7 @@ class FourthSection extends Component {
               className="col-12 col-lg-6 position-relative text-center md-margin-30px-bottom wow animate__fadeIn"
               data-wow-delay="0.2s"
             >
-              <img src="images/home-design-agency-img-01.png" alt="" />
+              <img src="new_images/Bo_Sec.png" alt="" />
               
             </div>
             <div className="col-12 col-xl-4 col-lg-5 offset-lg-1 col-md-7">
