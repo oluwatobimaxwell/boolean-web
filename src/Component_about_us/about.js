@@ -952,7 +952,7 @@ class AboutApp extends React.Component {
                       </ul>
                       <a
                         className="alt-font text-extra-small text-uppercase font-weight-500 margin-20px-top d-inline-block"
-                        href="https://www.instagram.com/"
+                        href="https://www.instagram.com/the_boolean_technologies"
                         target="_blank"
                       >
                         <i className="fab fa-instagram icon-extra-small align-middle margin-10px-right text-gradient-light-purple-light-orange" />
@@ -1000,15 +1000,6 @@ class AboutApp extends React.Component {
                         </li>
                         <li>
                           <a
-                            className="dribbble"
-                            href="http://www.dribbble.com"
-                            target="_blank"
-                          >
-                            <i className="fab fa-dribbble" />
-                          </a>
-                        </li>
-                        <li>
-                          <a
                             className="twitter"
                             href="http://www.twitter.com"
                             target="_blank"
@@ -1019,12 +1010,19 @@ class AboutApp extends React.Component {
                         <li>
                           <a
                             className="instagram"
-                            href="http://www.instagram.com"
+                            href="https://www.instagram.com/the_boolean_technologies"
                             target="_blank"
                           >
                             <i className="fab fa-instagram" />
                           </a>
                         </li>
+                        <li>
+                          <a 
+                            href="https://ng.linkedin.com/company/the-boolean-technologies-nig-ltd" target="_blank"
+                          >
+                            <i className="fab fa-linkedin" />
+                          </a>
+                        </li>                       
                       </ul>
                     </div>
                   </div>

@@ -724,9 +724,9 @@ class ContactUs extends React.Component {
             <div className="social-icon-style-12">
               <ul className="extra-small-icon light">
                 <li><a className="facebook" href="https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f" /></a></li>
-                <li><a className="dribbble" href="http://www.dribbble.com" target="_blank"><i className="fab fa-dribbble" /></a></li>
                 <li><a className="twitter" href="http://www.twitter.com" target="_blank"><i className="fab fa-twitter" /></a></li>
-                <li><a className="instagram" href="http://www.instagram.com" target="_blank"><i className="fab fa-instagram" /></a></li>
+                <li><a className="instagram" href="https://www.instagram.com/the_boolean_technologies" target="_blank"><i className="fab fa-instagram" /></a></li>
+                <li><a href="https://ng.linkedin.com/company/the-boolean-technologies-nig-ltd" target="_blank"><i className="fab fa-linkedin" /></a></li>
               </ul>
             </div>
           </div>

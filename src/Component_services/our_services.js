@@ -2772,7 +2772,7 @@ class Services extends React.Component {
                         <li>
                           <a
                             className="instagram"
-                            href="http://www.instagram.com"
+                            href="https://www.instagram.com/the_boolean_technologies"
                             target="_blank"
                           >
                             <i className="fab fa-instagram" />

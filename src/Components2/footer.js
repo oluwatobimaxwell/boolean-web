@@ -63,15 +63,6 @@ class Footer extends Component {
                   </li>
                   <li>
                     <a
-                      className="dribbble"
-                      href="http://www.dribbble.com/"
-                      target="_blank"
-                    >
-                      <i className="fab fa-dribbble text-yellow" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
                       className="twitter"
                       href="http://www.twitter.com/"
                       target="_blank"
@@ -82,12 +73,19 @@ class Footer extends Component {
                   <li>
                     <a
                       className="instagram"
-                      href="http://www.instagram.com/"
+                      href="https://www.instagram.com/the_boolean_technologies"
                       target="_blank"
                     >
                       <i className="fab fa-instagram text-yellow" />
                     </a>
                   </li>
+                  <li>
+                    <a 
+                      href="https://ng.linkedin.com/company/the-boolean-technologies-nig-ltd" target="_blank"
+                    >
+                      <i className="fab fa-linkedin text-yellow" />
+                    </a>
+                  </li>                  
                 </ul>
               </div>
             </div>

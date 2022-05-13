@@ -110,12 +110,15 @@ class Header extends Component {
                 <a href="http://www.facebook.com/" target="_blank">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a href="https://www.instagram.com/" target="_blank">
+                <a href="https://www.instagram.com/the_boolean_technologies" target="_blank">
                   <i className="fab fa-instagram" />
                 </a>
                 <a href="http://www.twitter.com/" target="_blank">
                   <i className="fab fa-twitter" />
                 </a>
+                <a href="https://ng.linkedin.com/company/the-boolean-technologies-nig-ltd" target="_blank">
+                  <i className="fab fa-linkedin" />
+                </a>                
               </div>
             </div>
           </div>
