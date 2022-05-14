@@ -12,7 +12,7 @@ class SixthSection extends Component {
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
                 <a href="#">
-                  <img src="new_images/partner_3.jpg" alt="" />
+                  <img src="new_images/partner_3-no-bg.png" alt="" />
                 </a>
               </div>
             </div>
@@ -24,7 +24,7 @@ class SixthSection extends Component {
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
                 <a href="#">
-                  <img src="new_images/ncc_bw.png" alt="" />
+                  <img src="new_images/ncc_bw-nobg.png" alt="" />
                 </a>
               </div>
             </div>
@@ -60,7 +60,7 @@ class SixthSection extends Component {
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
                 <a href="#">
-                  <img src="new_images/evoke_partner.png" alt="" />
+                  <img src="new_images/evoke_partner-no-bg.png" alt="" />
                 </a>
               </div>
             </div>
@@ -72,7 +72,7 @@ class SixthSection extends Component {
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
                 <a href="#">
-                  <img src="new_images/hot_stop-bw.jpg" alt="" />
+                  <img src="new_images/hot_stop-bw-no-bg.png" alt="" />
                 </a>
               </div>
             </div>
@@ -84,7 +84,7 @@ class SixthSection extends Component {
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
                 <a href="#">
-                  <img src="new_images/last_price.jpg" alt="" />
+                  <img src="new_images/last_price-no-bg.png" alt="" />
                 </a>
               </div>
             </div>
