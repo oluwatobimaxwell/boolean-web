@@ -7,6 +7,9 @@ class EightSection extends Component {
             <div
               className="wow animate__fadeIn"
               data-wow-delay="0.4s"
+              style = {{
+                float: "right"
+              }}              
             >
               <a
                 href="/contact-us"
