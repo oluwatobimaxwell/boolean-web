@@ -13,16 +13,16 @@ class FifthSection extends Component {
               data-wow-delay="0.2s"
             >
               <h4 className="alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-1px margin-2-half-rem-bottom">
-              Everybody Gets Exactly What They Need
+              Technology Agency
               </h4>
               <p className="w-90 sm-w-100">
-              We provide end-to-end software development services without compromising standard processes and quality assurance. We have served multiple companies globally transforming concepts into genuine products. 
+              Express your mind we will build and design.
               </p>
               <a
-                href="/services"
+                href="/contact-us"
                 className="btn btn-fancy btn-medium btn-transparent-light-gray margin-20px-top"
               >
-                Read more
+                Start a Project!
               </a>
             </div>
             <div className="col-12 col-xl-6 offset-xl-2 col-lg-7 md-padding-25px-left md-padding-35px-right sm-padding-15px-lr">
