@@ -15,7 +15,11 @@ class FifthSection extends Component {
               <h4 className="alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-1px margin-2-half-rem-bottom">
               Technology Agency
               </h4>
-              <p className="w-90 sm-w-100">
+              <p className="w-90 sm-w-100"
+              style={{
+                'font-size': '20px'
+              }}
+              >
               Express your mind we will build and design.
               </p>
               <a

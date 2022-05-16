@@ -20,7 +20,7 @@ class AboutUs extends Component {
                   About our company
                 </h1>
                 <h2 className="text-white alt-font font-weight-500 w-55 md-w-65 sm-w-80 center-col xs-w-100 letter-spacing-minus-1px line-height-50 sm-line-height-45 xs-line-height-30 no-margin-bottom">
-                  we are a leading software development company
+                  We Develop Technology
                 </h2>
               </div>
               <div className="down-section text-center">
@@ -47,7 +47,7 @@ class AboutUs extends Component {
               <div className="col-12 col-lg-4 col-md-6 ps-lg-0 d-flex sm-margin-30px-bottom">
                 <div className="justify-content-center w-100 d-flex flex-column bg-yellow padding-5-half-rem-lr lg-padding-3-rem-lr md-padding-4-rem-all">
                   <span className="text-large alt-font font-weight-200 text-black margin-20px-bottom d-block">
-                  The Boolean Tech is a one-stop IT solution provider web and mobile app development company in Abuja, NG. Having hands-on experience in delivering and deploying cutting-edge web and mobile applications, we create customer-centric product design and deliver ceaseless experience that leaves the user Wowwwww! 
+                  The Boolean Technology is a technology development and consulting company in Abuja Nigeria. We are experienced in designing and nurturing technology from nothing to a fully functioning product. We make tailor made solutions specifically for our clients, as we advice then on the best course of actions to take to give maximum probability for success.
                   </span>
                   <a
                     href="/services"
@@ -64,7 +64,7 @@ class AboutUs extends Component {
                     Our Mission
                   </span>
                   <p>
-                  It is through our passion and commitment to our clients that we develop software to face real-world challenges. It is our love for and dedication to what we do that enables us to become a better company for ourselves, for our clients, our community and the world.
+                  It is with passion and commitment to the advancement of technology that we develop software to face real world struggles. It is our love and dedication to the engineerinng of each product that allows us get better with every product. 
                   </p>
                 </div>
               </div>
@@ -77,9 +77,9 @@ class AboutUs extends Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-12 col-lg-6 col-sm-8 text-center margin-5-rem-bottom md-margin-3-rem-bottom">
-                <span className="text-extra-medium margin-15px-bottom alt-font d-block w-100">
+                {/* <span className="text-extra-medium margin-15px-bottom alt-font d-block w-100">
                   Browse amazing social media features
-                </span>
+                </span> */}
                 <h5 className="alt-font text-extra-dark-gray font-weight-500 margin-2-rem-bottom sm-w-100">
                   We offer a full range of software development services!
                 </h5>
@@ -97,7 +97,7 @@ class AboutUs extends Component {
                       Who we are?
                     </span>
                     <p className="text-white">
-                    Our team of passionate developers and designers nurtures your dreamed ideas into reality by solving the real-world problems for the business and their customers. Having released more than 75 apps of the respectable brands under the belt of our well-versed team, we leave no stone unturned when it comes to security and transparency. 
+                    The Boolean Technology is a technology development and consulting company in Abuja Nigeria. We are experienced in designing and nurturing technology from nothing to a fully functioning product. We make tailor made solutions specifically for our clients, as we advice then on the best course of actions to take to give maximum probability for success.
                     </p>
                   </div>
                  
@@ -115,7 +115,7 @@ class AboutUs extends Component {
                       Our Approach
                     </span>
                     <p className="text-black">
-                    Our skilled strategists, designers, and developers are here to take your project from ideation to publication. Being a leading software development company in Nigeria, our team is committed to developing mobile app and web-based software solutions that keep your users hooked straight into it. 
+                    Our skilled strategists, designers, and developers are here to take your project from idea to publication. Being a leading software development company in Nigeria, our team is committed to developing mobile app and web-based software solutions that keep your users hooked.
                     </p>
                   </div>
                   
@@ -178,10 +178,7 @@ class AboutUs extends Component {
                   It is teamwork that makes the dream work.
                 </h5>
                 <p>
-                  With years of experience in the design and development
-                  industry The Boolean Tech pride ourselves on creating unique, creative
-                  &amp; quality designs that are developed upon the latest
-                  coding.
+                With years of experience in the design and development industry.<br/>The Boolean Tech pride ourselves on creating unique, creative &amp; quality designs that are developed on the best technology available. 
                 </p>
                 <ul className="p-0 list-style-02 margin-2-rem-top margin-3-rem-bottom">
                   <li className="margin-15px-bottom">
@@ -190,7 +187,7 @@ class AboutUs extends Component {
                       aria-hidden="true"
                     />
                     <span className="text-extra-dark-gray alt-font">
-                      Beautiful and easy to understand applications
+                      Beautiful applications
                     </span>
                   </li>
                   <li className="margin-15px-bottom">
@@ -199,7 +196,7 @@ class AboutUs extends Component {
                       aria-hidden="true"
                     />
                     <span className="text-extra-dark-gray alt-font">
-                      Interfaces are pixel perfect designs
+                    Pixel perfect designs
                     </span>
                   </li>
                   <li className="margin-15px-bottom">
@@ -208,7 +205,7 @@ class AboutUs extends Component {
                       aria-hidden="true"
                     />
                     <span className="text-extra-dark-gray alt-font">
-                      We add creative ideas to your projects
+                      Creative takes on projects
                     </span>
                   </li>
                 </ul>
@@ -225,13 +222,13 @@ class AboutUs extends Component {
         {/* end section */}
         
         {/* start section */}
-        <section className="wow animate__fadeIn pt-md-0 pb-md-0 overflow-visible sm-border-bottom sm-border-color-medium-gray">
+        {/* <section className="wow animate__fadeIn pt-md-0 pb-md-0 overflow-visible sm-border-bottom sm-border-color-medium-gray">
           <div className="container">
             <div className="row align-items-center justify-content-center no-margin-lr overlap-section">
               <div className="col-12 box-shadow-medium bg-white align-items-center padding-4-rem-all sm-no-padding-tb sm-padding-15px-lr sm-box-shadow-none">
-                <div className="row row-cols-1 row-cols-md-3">
+                <div className="row row-cols-1 row-cols-md-3"> */}
                   {/* start counter item */}
-                  <div className="col border-right border-color-medium-gray text-center sm-no-border-right sm-margin-30px-bottom">
+                  {/* <div className="col border-right border-color-medium-gray text-center sm-no-border-right sm-margin-30px-bottom">
                     <h4
                       className="text-fast-blue alt-font font-weight-500 mb-xl-0 d-inline-block align-middle w-130px lg-w-100 counter"
                       data-speed={2000}
@@ -243,10 +240,10 @@ class AboutUs extends Component {
                       </span>
                       <span className="alt-font">For creative applications</span>
                     </div>
-                  </div>
+                  </div> */}
                   {/* end counter item */}
                   {/* start counter item */}
-                  <div className="col border-right border-color-medium-gray text-center sm-no-border-right sm-margin-30px-bottom">
+                  {/* <div className="col border-right border-color-medium-gray text-center sm-no-border-right sm-margin-30px-bottom">
                     <h4
                       className="text-fast-blue alt-font font-weight-500 mb-xl-0 d-inline-block align-middle w-130px lg-w-100 counter"
                       data-speed={2000}
@@ -258,10 +255,10 @@ class AboutUs extends Component {
                       </span>
                       <span className="alt-font">Desperate for work</span>
                     </div>
-                  </div>
+                  </div> */}
                   {/* end counter item */}
                   {/* start counter item */}
-                  <div className="col text-center">
+                  {/* <div className="col text-center">
                     <h4
                       className="text-fast-blue alt-font font-weight-500 mb-xl-0 d-inline-block align-middle w-130px lg-w-100 counter"
                       data-speed={2000}
@@ -273,13 +270,13 @@ class AboutUs extends Component {
                       </span>
                       <span className="alt-font">We love clients</span>
                     </div>
-                  </div>
+                  </div> */}
                   {/* end counter item */}
-                </div>
+                {/* </div>
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* end section */}
         {/* start section */}
         <section className="wow animate__fadeIn">

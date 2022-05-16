@@ -63,9 +63,9 @@ class TeamTile extends React.Component {
 class Team extends React.Component {
     render() { 
         const menus = [
-            {quote:"Chief Executive Officer", name: "Eric Obianozie", position:"Chief Executive Officer", picture:"images/CEO-Erik.png"},
-            {quote:"Chief Operation Officer", name: "Ronald Emeruwa", position:"Chief Operation Officer", picture:"images/blank-profile.jpg"},
-            {quote:"Chief Technology Officer", name: "Sholanke Oluwatobi", position:"Chief Technology Officer", picture:"images/CTO-Tobi.jpg"}
+            {quote:"Chief Executive Officer", name: "ERIK OBIANOZIE", position:"Chief Executive Officer", picture:"images/CEO-Erik.png"},
+            {quote:"Chief Operation Officer", name: "RONALD EMERUWA", position:"Chief Operation Officer", picture:"images/blank-profile.jpg"},
+            {quote:"Chief Technology Officer", name: "SHOLANKE OLUWATOBI", position:"Chief Technology Officer", picture:"images/CTO-Tobi.jpg"}
             
 
         ];

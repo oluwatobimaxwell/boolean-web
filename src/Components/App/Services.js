@@ -19,7 +19,7 @@ class Services extends Component {
                   What we offer
                 </h1>
                 <h3 className="text-white alt-font font-weight-500 letter-spacing-minus-1px line-height-50 sm-line-height-45 xs-line-height-30 no-margin-bottom">
-                  we are a creative and outstanding technology firm
+                  {/* we are a creative and outstanding technology firm */}
                 </h3>
               </div>
               <div className="down-section text-center">
@@ -33,51 +33,7 @@ class Services extends Component {
         {/* start section */}
         <section className="wow animate__fadeIn bg-gray">
           <div className="container">
-            <div className="row align-items-center">
-              <div className="col-12 col-md-5 sm-margin-30px-bottom">
-                <h5 className="alt-font font-weight-500 text-black mb-0">
-                  We design brand, digital experience that engaged the right
-                  customers
-                </h5>
-              </div>
-              <div className="col-12 col-lg-6 offset-lg-1 col-md-7">
-                <div className="row row-cols-1 row-cols-sm-2">
-                  {/* start counter item */}
-                  <div className="col counter-style-01 last-paragraph-no-margin xs-margin-30px-bottom">
-                    <h5
-                      className="counter counter-number text-extra-dark-gray alt-font appear font-weight-600 letter-spacing-minus-1px margin-15px-bottom"
-                      data-to={2530}
-                      data-speed={7000}
-                    >
-                      5000
-                    </h5>
-                    <span className="alt-font font-weight-500 text-black d-block margin-5px-bottom">
-                      Hours Worked
-                    </span>
-              
-                  </div>
-                  {/* end counter item */}
-                  {/* start counter item */}
-                  <div className="col counter-style-01 last-paragraph-no-margin">
-                    <h5
-                      className="counter counter-number text-extra-dark-gray alt-font appear font-weight-600 letter-spacing-minus-1px margin-15px-bottom"
-                      data-to={2000}
-                      data-speed={7000}
-                    >
-                      60
-                    </h5>
-                    <span className="alt-font font-weight-500 text-extra-dark-gray d-block margin-5px-bottom">
-                      Completed projects
-                    </span>
-                    
-                  </div>
-                  {/* end counter item */}
-                </div>
-              </div>
-              <div className="col-12">
-                <div className="w-100 h-1px bg-black margin-7-rem-top margin-8-rem-bottom sm-margin-5-rem-tb" />
-              </div>
-            </div>
+
             <div className="row">
               <div
                 className="col-12 tab-style-01 wow animate__fadeIn"
@@ -182,8 +138,7 @@ Eye-catching themes, unique designs and visually appealing website layouts have 
                           iOS Development
                         </h5>
                         <p className="w-85 lg-w-100 text-black">
-                        The Boolean Tech is well known company for iOS development and we have created a presence in Nigeria with our experience and clients who speak our work and who we had the privilege to work with in last 3+ years. We have developed numerous applications on iPad, and iPhone. The Boolean Tech has a zeal in this sector that makes us one of the most sought after development companies in the world.
-The Boolean Tech is a leading name in Mobile app Development Companies in Nigeria. Our iOS Developers are experts in their trade and provide best solution in development. We are highly skilled in designing dynamic and interactive apps with highly customized features. 
+                        The Boolean Tech is well known company for its iOS development. We have created a presence in Nigeria with our experience and clients who we have had the privilege to work with in last couple years. We have developed numerous applications on iPad, and iPhone. The Boolean Tech has a zeal in this sector that makes us one of the most sought after development companies in the region. Our iOS Developers are experts in their trade and provide best solution in development. 
                         </p>
                        
                       </div>
@@ -204,10 +159,8 @@ The Boolean Tech is a leading name in Mobile app Development Companies in Nigeri
                         <h5 className="alt-font font-weight-300 text-black">
                           Android Development
                           </h5>
-                        <p className="w-85 lg-w-100 text-black">
-                          
-The Boolean Tech is a leading mobile app development company in Nigeria, with around 15+ apps in our portfolio working on all OS versions. We have an expert team in developing Android apps. We provide high end enhanced Android apps which helps clients to enhance their business in various industrial verticals.
-We have a separate developing edge and highly technically sound team working from last 4 years in this sphere. Constant research and central approach with our clients and market have increased our diameter of experience in mobile app business.
+                        <p className="w-85 lg-w-100 text-black">                          
+                        The Boolean Tech is a leading mobile app development company in Nigeria, with around 15+ apps in our portfolio working on all OS versions. We have an expert team in developing Android apps. We provide high end enhanced Android apps which helps clients enhance their business. Constant research ensures we give our clients the best technology available.
                         </p>
                         
                       </div>
@@ -230,7 +183,7 @@ We have a separate developing edge and highly technically sound team working fro
                           UI/UX Design
                         </h5>
                         <p className="w-85 lg-w-100 text-black">
-                        With a strong focus on UI/UX design best practices, we make sure the your app feels cool using.
+                        With a strong team of artists and borderline psychologists, we develop group breaking designs which keep users engaged with your product. 
                         </p>
                       </div>
                     </div>
@@ -252,12 +205,7 @@ We have a separate developing edge and highly technically sound team working fro
                           Digital Marketing &amp; SEO
                         </h5>
                         <p className="w-85 lg-w-100 text-black">
-                          
-
-The Boolean Tech provides digital marketing and market research support. Digital marketing services are the best medium to not only connect with clients and partners but also generate trust. Digital marketing is often referred to as ‘online marketing’, ‘internet marketing’ or ‘web marketing’. Digital Marketing is a wide term that refers to wide range of digital advertising techniques applied to attract customers.
-
-The Boolean Tech has an edge over other players in digital marketing and market research industry. Our team provides a sharp and accurate solution with the combination of high professional development methodologies with advanced management tools which can shape up what you want.
-
+                        At The Boolean Tech we don’t just develop and leave our clients high and dry, we work to ensure your company has the marketing channels to succeed. We do this by providing digital marketing and market research support. Digital marketing services are the best medium to not only connect with clients and partners but also generate trust and revenue. 
                         </p>
                       </div>
                     </div>
@@ -269,7 +217,7 @@ The Boolean Tech has an edge over other players in digital marketing and market 
           </div>
         </section>
         {/* end section */}
-        <section className="bg-yellow wow animate__fadeIn">
+        {/* <section className="bg-yellow wow animate__fadeIn">
           <div className="container">
             <div className="row align-items-center">
               <div
@@ -323,7 +271,7 @@ The Boolean Tech has an edge over other players in digital marketing and market 
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* end section */}
         
       </AppLayer>

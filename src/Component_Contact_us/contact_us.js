@@ -585,7 +585,7 @@ class ContactUs extends React.Component {
   </section>
   {/* end section */}
   {/* start section */}
-  <section className="big-section wow animate__fadeIn">
+  {/* <section className="big-section wow animate__fadeIn">
     <div className="container">
       <div className="row align-items-end justify-content-center">
         <div className="col-12 col-lg-5 col-md-8 md-margin-50px-bottom">
@@ -615,7 +615,7 @@ class ContactUs extends React.Component {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
   {/* end section */}
   {/* start map section */}
   <section className="no-padding-tb wow animate__fadeIn">
