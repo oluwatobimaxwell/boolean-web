@@ -107,9 +107,6 @@ class Header extends Component {
             </div>
             <div className="col-auto col-lg-2 text-end hidden-xs px-lg-0">
               <div className="header-social-icon d-inline-block">
-                <a href="http://www.facebook.com/" target="_blank">
-                  <i className="fab fa-facebook-f" />
-                </a>
                 <a href="https://www.instagram.com/the_boolean_technologies" target="_blank">
                   <i className="fab fa-instagram" />
                 </a>
@@ -119,6 +116,9 @@ class Header extends Component {
                 <a href="https://ng.linkedin.com/company/the-boolean-technologies-nig-ltd" target="_blank">
                   <i className="fab fa-linkedin" />
                 </a>                
+                <a href="http://www.facebook.com/" target="_blank">
+                  <i className="fab fa-facebook-f" />
+                </a>
               </div>
             </div>
           </div>

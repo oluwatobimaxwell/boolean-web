@@ -54,15 +54,6 @@ class Footer extends Component {
                 <ul className="extra-small-icon">
                   <li>
                     <a
-                      className="facebook"
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                    >
-                      <i className="fab fa-facebook-f text-yellow" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
                       className="twitter"
                       href="http://www.twitter.com/"
                       target="_blank"
@@ -86,6 +77,15 @@ class Footer extends Component {
                       <i className="fab fa-linkedin text-yellow" />
                     </a>
                   </li>                  
+                  <li>
+                    <a
+                      className="facebook"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-facebook-f text-yellow" />
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

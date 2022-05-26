@@ -48,7 +48,7 @@ class SixthSection extends Component {
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
                 <a href="#">
-                  <img src="new_images/oya.png" alt="" />
+                  <img src="new_images/oya-bwd.png" alt="" />
                 </a>
               </div>
             </div>
@@ -96,7 +96,7 @@ class SixthSection extends Component {
             >
               <div className="client-box padding-4-rem-tb lg-padding-3-rem-tb xs-padding-4-rem-tb">
                 <a href="#">
-                  <img src="new_images/ngd.jpg" alt="" />
+                  <img src="new_images/ngd-bwd.png" alt="" />
                 </a>
               </div>
             </div>
