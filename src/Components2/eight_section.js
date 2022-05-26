@@ -19,7 +19,7 @@ class EightSection extends Component {
               </a>
             </div>
         </div>        
-        <img src="new_images/updated_boo_bg1.jpg"></img>
+        <img src="new_images/updated_boo_orgn.jpg"></img>
       </div>
     );
   }

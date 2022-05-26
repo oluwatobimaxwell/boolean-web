@@ -10,7 +10,7 @@ class AboutUs extends Component {
         <section
           className="parallax"
           data-parallax-background-ratio="0.5"
-          style={{ backgroundImage: 'url("images/about-us-bg.jpg")' }}
+          style={{ backgroundImage: 'url("new_images/network.jpg")' }}
         >
           <div className="opacity-extra-medium bg-extra-dark-gray" />
           <div className="container">
@@ -40,7 +40,7 @@ class AboutUs extends Component {
                 <div
                   className="w-100 md-h-700px sm-h-550px xs-h-450px cover-background"
                   style={{
-                    backgroundImage: 'url("images/about-us-img-07.jpg")',
+                    backgroundImage: 'url("new_images/girltech.jpg")',
                   }}
                 />
               </div>
