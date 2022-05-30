@@ -102,7 +102,7 @@ class Services extends Component {
                     <div className="row align-items-center">
                       <div className="col-12 col-md-6 text-end sm-margin-20px-bottom">
                         <img
-                          src="images/what-we-offers-06.jpg"
+                          src="new_images/pexels-vlada-karpovich-4939663.jpg"
                           className="w-90 sm-w-100"
                           alt=""
                         />
@@ -128,7 +128,8 @@ Eye-catching themes, unique designs and visually appealing website layouts have 
                     <div className="row align-items-center">
                       <div className="col-12 col-md-6 text-end sm-margin-40px-bottom">
                         <img
-                          src="images/what-we-offers-04.jpg"
+                          src="new_images/pexels-mikhail-nilov-9301524.jpg"
+
                           className="w-90 sm-w-100"
                           alt=""
                         />
@@ -150,7 +151,7 @@ Eye-catching themes, unique designs and visually appealing website layouts have 
                     <div className="row align-items-center">
                       <div className="col-12 col-md-6 text-end sm-margin-40px-bottom">
                         <img
-                          src="images/what-we-offers-06.jpg"
+                          src="new_images/pexels-mikhail-nilov-9301841.jpg"
                           className="w-90 sm-w-100"
                           alt=""
                         />
@@ -172,7 +173,7 @@ Eye-catching themes, unique designs and visually appealing website layouts have 
                     <div className="row align-items-center">
                       <div className="col-12 col-md-6 text-end sm-margin-40px-bottom">
                         <img
-                          src="images/what-we-offers-05.jpg"
+                          src="new_images/pexels-andrea-piacquadio-3769021.jpg"
                           className="w-90 sm-w-100"
                           alt=""
                         />
@@ -194,7 +195,7 @@ Eye-catching themes, unique designs and visually appealing website layouts have 
                     <div className="row align-items-center">
                       <div className="col-12 col-md-6 text-end sm-margin-40px-bottom">
                         <img
-                          src="images/what-we-offers-05.jpg"
+                          src="new_images/pexels-anna-shvets-3727458.jpg"
                           className="w-90 sm-w-100"
                           alt=""
                         />

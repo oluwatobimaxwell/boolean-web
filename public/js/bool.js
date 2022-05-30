@@ -18,10 +18,6 @@ $( document ).ready(function() {
         if (url == (this.href)) {
             $(this).closest("li").addClass("active");
             $(this).closest("li").addClass("underline");
-            // $(this).closest("li").parent().addClass("underline");
-            //for making parent of submenu active
-        //    $(this).closest("li").parent().parent().addClass("active");
-        //    $(this).closest("li").parent().parent().addClass("underline");
         }
     });    
     console.log(allLink(), 'ayoooooo', $(".nav-link"))    
