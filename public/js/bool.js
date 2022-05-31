@@ -5,8 +5,8 @@ $( document ).ready(function() {
     $(".nav-item a").each(function() {
         // checks if its the same on the address bar
         if (url == (this.href)) {
-            $(this).closest("li a.nav-link").addClass("active");
-            $(this).closest("li a.nav-link").addClass("underline");
+            $(this).closest("li.top").addClass("active");
+            $(this).closest("li.top").addClass("underline");
         }
     });    
 });
