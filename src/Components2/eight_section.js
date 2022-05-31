@@ -17,9 +17,9 @@ class EightSection extends Component {
               >
                 Start a project
               </a> */}
-              <a href="/contact-us" className="btn-box-shadow btn-small btn btn-medium btn-fast-yellow btn-round-edge btn-fancy">
-                Join the team!
-              </a>
+              {/* <a href="/contact-us" className="btn-box-shadow btn-small btn btn-medium btn-fast-yellow btn-round-edge btn-fancy">
+                Start a project!
+              </a> */}
             </div>
         </div>        
         <div className="position-relative">
@@ -40,6 +40,9 @@ class EightSection extends Component {
                   fontWeight: "600",
                   color: "black",
             }}>Express your idea, we will build and design!</p>
+            <a href="/contact-us" className="btn-box-shadow btn-small btn btn-medium btn-fast-yellow btn-round-edge btn-fancy">
+              Start a project!
+            </a>            
           </div>
         </div>
       </div>
