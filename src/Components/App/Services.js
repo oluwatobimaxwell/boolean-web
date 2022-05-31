@@ -36,7 +36,7 @@ class Services extends Component {
 
             <div className="row">
               <div
-                className="col-12 tab-style-01 wow animate__fadeIn"
+                className="col-12 wow animate__fadeIn"
                 data-wow-delay="0.4s"
               >
                 {/* start tab navigation */}
