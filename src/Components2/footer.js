@@ -11,8 +11,8 @@ class Footer extends Component {
                 className="footer-logo margin-20px-bottom d-block"
               >
                 <img
-                  src="images/btech1.jpg"
-                  data-at2x="images/btech1.jpg"
+                  src="new_images/BOOLEAN-WHITE.png"
+                  data-at2x="new_images/BOOLEAN-WHITE.png"
                   alt=""
                 />
               </a>
