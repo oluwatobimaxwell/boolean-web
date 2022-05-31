@@ -316,7 +316,7 @@ class AboutUs extends Component {
                 {/* <button className="join-team">
                   Join the team  </button> */}
                   {/* <button className="button-10 d-inline" role="button">Join the team</button> */}
-                  <a href="/contact-us" class="btn btn-medium btn-fast-yellow btn-round-edge">Join the team!</a>
+                  <a href="/contact-us" className="btn btn-medium btn-fast-yellow btn-round-edge">Join the team!</a>
                   <span className="bg-yellow" />
                   </a>
               </div>
