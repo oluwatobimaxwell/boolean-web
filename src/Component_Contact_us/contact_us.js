@@ -527,6 +527,7 @@ class ContactUs extends React.Component {
     <div className="container">
       <div className="d-flex flex-column flex-md-row justify-content-end extra-small-screen align-items-end">
         <div className="w-100 w-md-50 page-title-extra-small">
+          <img src="new_images/pexels-askar-abayev-6193638.jpg"></img>
           <h1 className="alt-font text-extra-dark-gray position-relative padding-90px-left padding-15px-right sm-padding-55px-left mb-md-0 sm-margin-20px-bottom"><span className="page-title-separator-line bg-black w-70px sm-w-40px" />Contact us modern</h1>
         </div>
         <div className="w-100 w-md-50">

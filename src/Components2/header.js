@@ -10,7 +10,7 @@ class Header extends Component {
               <a className="navbar-brand" href="/">
                 <img
                   src="images/LOGO-BLACK.png"
-                  data-at2x="images/LOGO-BLACK.png"
+                  data-at2x="new_images/boolean_logo_black.jpeg"
                   alt=""
                   className="default-logo"
                 />

@@ -7,14 +7,27 @@ class ContactUs extends Component {
       <AppLayer>
         <section className="bg-yellow">
     <div className="container">
-      <div className="d-flex flex-column flex-md-row justify-content-end extra-small-screen align-items-end">
+    <div class="tab-pane fade in active show"><div class="row align-items-center">
+      <div class="col-12 col-md-6 text-left sm-margin-20px-bottom">
+      <img src="new_images/pexels-askar-abayev-6193638.jpg" class="w-90 sm-w-100 d-block mb-5" alt=""/>
+      </div>
+      <div class="col- 12 col-lg-5 offset-lg-1 col-md-6">
+        <h5 className="alt-font font-weight-300 text-extra-dark-gray mb-0">
+        We look forward to hearing more about your needs and making your next software project a success. Contact us now and we guarantee to get back to you as soon as possible.</h5>
+      </div>
+      <div className="page-title-extra-small">
+        <h1 className="alt-font text-extra-dark-gray position-relative padding-90px-left padding-15px-right sm-padding-55px-left mb-md-0 sm-margin-20px-bottom"><span className="page-title-separator-line bg-black w-70px sm-w-40px" />Contact us</h1>
+      </div>      
+      </div></div>
+      {/* <div className="d-flex flex-column flex-md-row justify-content-end extra-small-screen align-items-end">
         <div className="w-100 w-md-50 page-title-extra-small">
+          <img src="new_images/pexels-askar-abayev-6193638.jpg"></img>
           <h1 className="alt-font text-extra-dark-gray position-relative padding-90px-left padding-15px-right sm-padding-55px-left mb-md-0 sm-margin-20px-bottom"><span className="page-title-separator-line bg-black w-70px sm-w-40px" />Contact us</h1>
         </div>
         <div className="w-100 w-md-50">
           <h5 className="alt-font font-weight-300 text-extra-dark-gray mb-0">We look forward to hearing more about your needs and making your next software project a success. Contact us now and we guarantee to get back to you as soon as possible.</h5>
         </div>
-      </div>
+      </div> */}
     </div>
   </section>
   {/* end page title */} 
