@@ -61,9 +61,9 @@ class AboutUs extends Component {
                 <img src="new_images/pexels-kampus-production-5940708.jpg" alt="" />
                 <div className="bg-black padding-3-half-rem-lr padding-3-rem-tb lg-padding-2-rem-all md-padding-2-half-rem-all sm-padding-4-rem-all last-paragraph-no-margin">
                   <span className="alt-font text-yellow font-weight-500 margin-10px-bottom d-block">
-                    Our Mission
+                    OUR MISSION
                   </span>
-                  <p>
+                  <p className="text-large alt-font font-weight-200 margin-20px-bottom d-block text-yellow">
                   It is with passion and commitment to the advancement of technology that we develop software to face real world struggles. It is our love and dedication to the engineerinng of each product that allows us get better with every product. 
                   </p>
                 </div>
@@ -313,8 +313,10 @@ class AboutUs extends Component {
                 data-wow-delay="0.2s"
               > 
               <a href="/contact-us">
-                <button className="join-team">
-                  Join the team  </button>
+                {/* <button className="join-team">
+                  Join the team  </button> */}
+                  {/* <button className="button-10 d-inline" role="button">Join the team</button> */}
+                  <a href="/contact-us" class="btn btn-medium btn-fast-yellow btn-round-edge">Join the team!</a>
                   <span className="bg-yellow" />
                   </a>
               </div>
