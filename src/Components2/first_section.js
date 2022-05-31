@@ -20,7 +20,7 @@ class FirstSection extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-12 col-lg-5 col-md-6 col-sm-7 full-screen md-h-650px sm-h-500px d-flex flex-column justify-content-center padding-8-rem-tb">
-                  <h1 className="alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-2px margin-4-half-rem-bottom sm-letter-spacing-minus-1-half xs-w-65"
+                  <h1 className="font-weight-600 text-extra-dark-gray letter-spacing-minus-2px margin-4-half-rem-bottom sm-letter-spacing-minus-1-half xs-w-65"
                   style={{
                     lineHeight: '95px'
                   }}>
