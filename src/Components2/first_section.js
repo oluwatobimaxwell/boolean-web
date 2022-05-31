@@ -24,7 +24,7 @@ class FirstSection extends Component {
                   style={{
                     lineHeight: '95px'
                   }}>
-                  We are a Technology Agency 
+                  We bring life to your Ideas!
                   </h1>
                   <a
                     href="/about-us"
