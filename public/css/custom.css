@@ -30,3 +30,6 @@
 *:not(i){
     font-family: Nunito;
 }
+.max-width-50{
+  max-width: 50%;
+}

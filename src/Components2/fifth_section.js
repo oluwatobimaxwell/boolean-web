@@ -46,7 +46,7 @@ class FifthSection extends Component {
               </span>
             </div>
             <div className="col-12 col-lg-6 col-md-8 p-0 order-3 order-lg-2 wow animate__fadeIn">
-              <img src="new_images/team.jpg" alt="" />
+              <img src="new_images/the_team.png" alt="" />
             </div>
             <div
               className="col-12 col-lg-3 col-md-5 col-sm-6 text-center text-lg-start order-2 order-lg-3 md-margin-5-rem-bottom xs-margin-7-rem-bottom wow animate__fadeInLeft"

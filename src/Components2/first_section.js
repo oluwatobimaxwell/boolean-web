@@ -26,13 +26,19 @@ class FirstSection extends Component {
                   }}>
                   We bring life to your Ideas!
                   </h1>
-                  <a
+                  {/* <a
                     href="/about-us"
                     className="btn btn-extra-large btn-expand-ltr text-extra-dark-gray btn-rounded align-self-start font-weight-600"
                   >
+                    className="btn-box-shadow btn-small btn btn-medium btn-round-edge btn-fancy"
                     Read more
-                    {/* <span className="bg-white" /> */}
-                  </a>
+                    <span className="bg-white" />
+                  </a> */}
+                  <a href="/contact-us" className="btn-box-shadow btn-small btn btn-medium btn-round-edge btn-fancy btn-expand-ltr"
+                   style={{
+                     width: "fit-content",
+                   }}
+                   >Start a project!</a>                  
                 </div>
               </div>
             </div>
