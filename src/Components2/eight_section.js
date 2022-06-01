@@ -26,7 +26,7 @@ class EightSection extends Component {
         style={{
           backgroundColor: "black",
         }}>
-          <img src="new_images/creativity-bulb.jpg"
+          <img src="new_images/creativity-bulb1.jpg"
           style={{
             opacity: "0.65",
           }}></img>

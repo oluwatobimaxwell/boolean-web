@@ -12,7 +12,7 @@ class FourthSection extends Component {
                 width: '58%'
               }}
             >
-              <img src="new_images/innovation.png" alt="" />
+              <img src="new_images/innovation1.png" alt="" />
               
             </div>
             <div className="col-12 col-xl-4 col-lg-5 offset-lg-1 col-md-7">
