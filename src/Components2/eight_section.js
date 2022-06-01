@@ -33,7 +33,7 @@ class EightSection extends Component {
           <div className="position-absolute" 
           style={{
               top: "25%",
-              left: "50%"
+              left: "45%"
           }}>
             <p style={{
                   color: "white",

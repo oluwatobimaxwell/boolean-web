@@ -28,7 +28,8 @@
 }
 
 *:not(i){
-    font-family: Nunito;
+    /* font-family: Nunito; */
+    font-family: Montserrat;
 }
 .max-width-50{
   max-width: 50%;
