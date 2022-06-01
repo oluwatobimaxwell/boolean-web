@@ -38,7 +38,7 @@ class FirstSection extends Component {
                    style={{
                      width: "fit-content",
                    }}
-                   >Start a project!</a>
+                   >Explore</a>
                 </div>
               </div>
             </div>
