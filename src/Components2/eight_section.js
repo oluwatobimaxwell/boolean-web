@@ -41,11 +41,13 @@ class EightSection extends Component {
                   fontSize: "60px",
                   fontWeight: "1000",
             }}>We are a Technology Agency</p>
+            <br/>
             <p style={{
                   fontSize: "25px",
                   fontWeight: "600",
                   color: "black",
             }}>Express your idea, we will build and design!</p>
+            <br/><br/>
             <a href="/contact-us" className="btn-box-shadow btn-small btn btn-medium btn-round-edge btn-fancy"
             style={{
               backgroundColor: "white",
