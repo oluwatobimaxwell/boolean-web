@@ -287,7 +287,7 @@ class AboutUs extends Component {
                   The designer team
                 </span>
                 <h5 className="alt-font text-extra-dark-gray font-weight-500">
-                  Creative people
+                  {/* Creative people */}
                 </h5>
               </div>
             </div>
