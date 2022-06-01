@@ -28,7 +28,7 @@ class FirstSection extends Component {
                   </h1>
                   <h5 style={{
                     fontSize: "16px",
-                  }}>We develop cool software</h5>
+                  }}>We develop cool, evegreen software!</h5>
                   <br/><br/>
                   {/* <a
                     href="/about-us"
