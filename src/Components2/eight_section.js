@@ -52,7 +52,7 @@ class EightSection extends Component {
             style={{
               backgroundColor: "white",
             }}>
-              Start a project!
+              Get a quote for your project!
             </a>            
           </div>
         </div>
