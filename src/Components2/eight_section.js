@@ -22,25 +22,34 @@ class EightSection extends Component {
               </a> */}
             </div>
         </div>        
-        <div className="position-relative">
-          <img src="new_images/creativity-bulb.jpg"></img>
+        <div className="position-relative"
+        style={{
+          backgroundColor: "black",
+        }}>
+          <img src="new_images/creativity-bulb.jpg"
+          style={{
+            opacity: "0.65",
+          }}></img>
           <div className="position-absolute" 
           style={{
               top: "25%",
-              left: "55%"
+              left: "50%"
           }}>
             <p style={{
                   color: "white",
-                  lineHeight: "60px",
-                  fontSize: "50px",
-                  fontWeight: "800",
+                  lineHeight: "70px",
+                  fontSize: "60px",
+                  fontWeight: "1000",
             }}>We are a Technology Agency</p>
             <p style={{
                   fontSize: "25px",
                   fontWeight: "600",
                   color: "black",
             }}>Express your idea, we will build and design!</p>
-            <a href="/contact-us" className="btn-box-shadow btn-small btn btn-medium btn-fast-yellow btn-round-edge btn-fancy">
+            <a href="/contact-us" className="btn-box-shadow btn-small btn btn-medium btn-round-edge btn-fancy"
+            style={{
+              backgroundColor: "white",
+            }}>
               Start a project!
             </a>            
           </div>
