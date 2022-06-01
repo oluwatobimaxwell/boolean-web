@@ -284,10 +284,10 @@ class AboutUs extends Component {
             <div className="row justify-content-center">
               <div className="col-12 col-md-6 text-center margin-4-half-rem-bottom sm-margin-3-rem-bottom">
                 <span className="alt-font text-extra-medium">
-                  The Executives
+                  {/* The Executives */}
                 </span>
-                <h5 className="alt-font text-extra-dark-gray font-weight-500">
-                  {/* Creative people */}
+                <h5 className="alt-font text-extra-dark-gray font-weight-300">
+                  The Executive Team
                 </h5>
               </div>
             </div>
