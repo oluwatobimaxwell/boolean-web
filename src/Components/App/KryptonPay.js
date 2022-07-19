@@ -168,7 +168,7 @@ class KryptonPay extends Component {
           <div className="col-12 col-lg-4 col-sm-6 xs-margin-25px-bottom">
             <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Get in touch</span>
             <p className="w-85 margin-15px-bottom">56, Ariesului street, Cluj-Napoca, 400456, Cluj, Romania</p>
-            <div><i className="feather icon-feather-mail icon-very-small margin-10px-right text-white" /><a href="mailto:support@kryptonpay.co">support@kryptonpay.co</a></div>
+            <div><i className="feather icon-feather-mail icon-very-small margin-10px-right text-white" /><a href="mailto:coo@theboolean.tech">coo@theboolean.tech</a></div>
           </div>
           {/* end footer column */}
           {/* start footer column */}

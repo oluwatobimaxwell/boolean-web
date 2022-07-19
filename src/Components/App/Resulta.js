@@ -333,7 +333,7 @@ class Resulta extends Component {
             <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Get in touch</span>
             <p className="w-85 margin-15px-bottom">27 Eden walk eden centre, Orchard view, Paris, France</p>
             <div><i className="feather icon-feather-phone-call icon-very-small margin-10px-right text-white" />+1 234 567 8910</div>
-            <div><i className="feather icon-feather-mail icon-very-small margin-10px-right text-white" /><a href="#">info@yourdomain.com</a></div>
+            <div><i className="feather icon-feather-mail icon-very-small margin-10px-right text-white" /><a href="#">coo@theboolean.tech</a></div>
           </div>
           {/* end footer column */}
           {/* start footer column */}

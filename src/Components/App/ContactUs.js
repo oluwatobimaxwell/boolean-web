@@ -115,7 +115,7 @@ class ContactUs extends Component {
         <div className="col-12 col-sm-auto sm-margin-15px-bottom wow animate__fadeIn" data-wow-delay="0.4s">
           <div className="d-flex justify-content-center align-items-center padding-15px-lr h-100">
             <i className="feather icon-feather-mail align-middle icon-extra-small text-gradient-magenta-orange margin-10px-right" />
-            <a href="mailto:no-reply@domain.com" className="text-extra-dark-gray alt-font text-medium">booleantech@gmail.com</a>
+            <a href="mailto:coo@theboolean.tech" className="text-extra-dark-gray alt-font text-medium">coo@theboolean.tech</a>
           </div>
         </div>
         {/* end feature box item*/}
@@ -123,7 +123,7 @@ class ContactUs extends Component {
         <div className="col-12 col-sm-auto wow animate__fadeIn" data-wow-delay="0.6s">
           <div className="d-flex justify-content-center align-items-center padding-15px-lr h-100">
             <i className="feather icon-feather-globe align-middle icon-extra-small text-gradient-magenta-orange margin-10px-right" />
-            <a href="#" className="text-extra-dark-gray alt-font text-medium">www.booleantech.com</a>
+            <a href="#" className="text-extra-dark-gray alt-font text-medium">www.theboolean.tech</a>
           </div>
         </div>
         {/* end feature box item*/}

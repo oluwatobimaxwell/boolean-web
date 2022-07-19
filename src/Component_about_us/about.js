@@ -917,7 +917,7 @@ class AboutApp extends React.Component {
                     </div>
                     <div>
                       <i className="feather icon-feather-mail icon-very-small margin-10px-right text-white" />
-                      <a href="#">info@yourdomain.com</a>
+                      <a href="#">coo@theboolean.tech</a>
                     </div>
                   </div>
                   {/* end footer column */}
