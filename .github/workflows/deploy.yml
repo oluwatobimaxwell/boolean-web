@@ -12,23 +12,18 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          path: ./shortdir  # Shorten the path
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'  # Adjust to your project's Node.js version
-          working-directory: ./shortdir
 
       - name: Install dependencies
         run: yarn install
-        working-directory: ./shortdir
 
       - name: Build project with CI=false
         run: |
           CI=false yarn build || echo "Build failed, but continuing anyway."
-        working-directory: ./shortdir
 
       - name: Deploy to CapRover
         env:
@@ -45,4 +40,3 @@ jobs:
             -a $CAPROVER_APP_NAME \
             -t $CAPROVER_APP_TOKEN \
             -p build.tar.gz
-        working-directory: ./shortdir
